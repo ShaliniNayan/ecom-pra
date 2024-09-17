@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdLocalShipping } from 'react-icons/md'
+import './nav.css'
 
 const Nav = () => {
   return (
@@ -9,6 +10,9 @@ const Nav = () => {
             <div className='top_header'>
                 <div className='icon'>
                     <MdLocalShipping />
+                </div>
+                <div className='info'>
+                  <p>Free Shipping When Shoping Upto ₹499</p>
                 </div>
             </div>
         </div>
