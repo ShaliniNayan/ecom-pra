@@ -15,6 +15,11 @@ const Nav = () => {
                   <p>Free Shipping When Shoping Upto ₹499</p>
                 </div>
             </div>
+            <div className='mid_header'>
+              <div className='logo'>
+                <img src='image/logo.webp' alt='logo' />
+              </div>
+            </div>
         </div>
       </div>
     </>
