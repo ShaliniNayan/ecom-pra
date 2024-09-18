@@ -45,3 +45,28 @@
     cursor: pointer;
     object-fit: cover;
 }
+
+.header .mid_header .search_bar input
+{
+    padding: 10px 10px;
+    outline: none;
+    background: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 250px;
+    border: none;
+    border: 1px solid #8a8a8a;
+}
+
+.header .mid_header .search_bar button
+{
+    padding: 10px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid #cd3cca;
+    background: #cd3cca;
+    color: #fff;
+    cursor: pointer;
+}
