@@ -69,4 +69,6 @@
     background: #cd3cca;
     color: #fff;
     cursor: pointer;
+    margin-right: 30px;
+    transition: 0.5s;
 }
