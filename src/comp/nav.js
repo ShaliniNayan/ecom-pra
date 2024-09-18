@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdLocalShipping } from 'react-icons/md'
 import './nav.css'
+import { AiOutlineSearch } from 'react-icons/ai'
 
 const Nav = () => {
   return (
@@ -18,6 +19,10 @@ const Nav = () => {
             <div className='mid_header'>
               <div className='logo'>
                 <img src='image/logo.webp' alt='logo' />
+              </div>
+              <div className='search_bar'>
+                <input type='text' placeholder='Search' />
+                <button><AiOutlineSearch /></button>
               </div>
             </div>
         </div>
