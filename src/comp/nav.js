@@ -29,6 +29,9 @@ const Nav = () => {
                 <div className='icon'>
                   <FiLogIn />
                 </div>
+                <div className='btn'>
+                  <button>Sign In</button>
+                </div>
               </div>
             </div>
         </div>
