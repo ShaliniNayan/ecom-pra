@@ -2,6 +2,7 @@ import React from 'react'
 import { MdLocalShipping } from 'react-icons/md'
 import './nav.css'
 import { AiOutlineSearch } from 'react-icons/ai'
+import { FiLogIn } from 'react-icons/fi'
 
 const Nav = () => {
   return (
@@ -23,6 +24,11 @@ const Nav = () => {
               <div className='search_bar'>
                 <input type='text' placeholder='Search' />
                 <button><AiOutlineSearch /></button>
+              </div>
+              <div className='user'>
+                <div className='icon'>
+                  <FiLogIn />
+                </div>
               </div>
             </div>
         </div>
