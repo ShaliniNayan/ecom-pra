@@ -3,8 +3,10 @@ import { MdLocalShipping } from 'react-icons/md'
 import './nav.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { FiLogIn } from 'react-icons/fi'
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Nav = () => {
+  const { loginWithRedirect } = useAuth0();
   return (
     <>
       <div>
@@ -30,7 +32,7 @@ const Nav = () => {
                   <FiLogIn />
                 </div>
                 <div className='btn'>
-                  <button>Sign In</button>
+                  <button onClick={() => loginWithRedirect()}>Sign In</button>
                 </div>
               </div>
             </div>
