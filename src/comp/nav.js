@@ -29,26 +29,23 @@ const Nav = () => {
                 <button><AiOutlineSearch /></button>
               </div>
               {
-                 isAuthenticated ?
-                  <div className='user'>
-                    <div className='icon'>
-                      <CiLogout />
-                    </div>
-                    <div className='btn'>
-                      <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
-                        Logout
-                      </button>
-                    </div>
+                isAuthenticated ?
+                <div className='user'>
+                  <div className='icon'>
+                    <img src={user.picture} alt='user' />
                   </div>
-                    :
-                  <div className='user'>
-                    <div className='icon'>
-                      <FiLogIn />
-                    </div>
-                    <div className='btn'>
-                      <button onClick={() => loginWithRedirect()}>Sign In</button>
-                    </div>
+                  <div className='btn'>
+                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>
                   </div>
+                </div> :
+                <div className='user'>
+                  <div className='icon'>
+                    <FiLogIn />
+                  </div>
+                  <div className='btn'>
+                    <button onClick={() => loginWithRedirect()}>Sign In</button>
+                  </div>
+                </div>
               }
               
             </div>
