@@ -3,10 +3,11 @@ import { MdLocalShipping } from 'react-icons/md'
 import './nav.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { FiLogIn } from 'react-icons/fi'
+import { CiLogout } from 'react-icons/ci'
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Nav = () => {
-  const { loginWithRedirect } = useAuth0();
+  const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
   return (
     <>
       <div>
@@ -27,14 +28,29 @@ const Nav = () => {
                 <input type='text' placeholder='Search' />
                 <button><AiOutlineSearch /></button>
               </div>
-              <div className='user'>
-                <div className='icon'>
-                  <FiLogIn />
-                </div>
-                <div className='btn'>
-                  <button onClick={() => loginWithRedirect()}>Sign In</button>
-                </div>
-              </div>
+              {
+                 isAuthenticated ?
+                  <div className='user'>
+                    <div className='icon'>
+                      <CiLogout />
+                    </div>
+                    <div className='btn'>
+                      <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                        Logout
+                      </button>
+                    </div>
+                  </div>
+                    :
+                  <div className='user'>
+                    <div className='icon'>
+                      <FiLogIn />
+                    </div>
+                    <div className='btn'>
+                      <button onClick={() => loginWithRedirect()}>Sign In</button>
+                    </div>
+                  </div>
+              }
+              
             </div>
         </div>
       </div>
