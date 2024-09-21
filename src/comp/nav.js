@@ -55,11 +55,20 @@ const Nav = () => {
               <div className='menu'>
                 {
                   // User profile will show if user is login
-                  isAuthenticated && 
+                  isAuthenticated ?
                   <>
                   <CiUser />
                   <h2>{user.name}</h2>
                   <p>{user.email}</p>
+                  </>
+                  :
+                  <>
+                  <div className='icon'>
+                    <CiUser />
+                  </div>
+                  <div className='info'>
+                    <p>Please Sign In</p>
+                  </div>
                   </>
                 }
               </div>
