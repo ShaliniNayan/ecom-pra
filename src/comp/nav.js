@@ -40,7 +40,7 @@ const Nav = () => {
                     <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>
                   </div>
                 </div> :
-                //  If user is not login then login button will show
+                // if user is not login then login button will show
                 <div className='user'>
                   <div className='icon'>
                     <FiLogIn />
@@ -50,7 +50,18 @@ const Nav = () => {
                   </div>
                 </div>
               }
-              
+            </div>
+            <div className='bottom_header'>
+              <div className='menu'>
+                {
+                  // User profile will show if user is login
+                  isAuthenticated && 
+                  <>
+                  <h2>{user.name}</h2>
+                  <p>{user.email}</p>
+                  </>
+                }
+              </div>
             </div>
         </div>
       </div>
