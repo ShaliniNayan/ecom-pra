@@ -3,7 +3,7 @@ import { MdLocalShipping } from 'react-icons/md'
 import './nav.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { FiLogIn } from 'react-icons/fi'
-import { CiLogout } from 'react-icons/ci'
+import { CiLogout, CiUser } from 'react-icons/ci'
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Nav = () => {
@@ -57,6 +57,7 @@ const Nav = () => {
                   // User profile will show if user is login
                   isAuthenticated && 
                   <>
+                  <CiUser />
                   <h2>{user.name}</h2>
                   <p>{user.email}</p>
                   </>
