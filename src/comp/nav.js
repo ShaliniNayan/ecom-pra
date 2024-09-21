@@ -30,14 +30,17 @@ const Nav = () => {
               </div>
               {
                 isAuthenticated ?
+                //  If user is login then logout button will show and also user profile
                 <div className='user'>
                   <div className='icon'>
+                    <CiLogout />
                     <img src={user.picture} alt='user' />
                   </div>
                   <div className='btn'>
                     <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>
                   </div>
                 </div> :
+                //  If user is not login then login button will show
                 <div className='user'>
                   <div className='icon'>
                     <FiLogIn />
