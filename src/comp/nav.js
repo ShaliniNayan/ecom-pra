@@ -82,6 +82,9 @@ const Nav = () => {
                   <li><Link to='/contact' className='link'>Contact</Link></li>
                 </ul>
               </div>
+              <div className='discount'>
+                <p>Flat 10% OFF on first order</p>
+              </div>
             </div>
         </div>
       </div>
