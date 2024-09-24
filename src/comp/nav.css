@@ -99,3 +99,11 @@
     background: none;
     cursor: pointer;
 }
+
+.header .bottom_header
+{
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    background: #232323;
+}
