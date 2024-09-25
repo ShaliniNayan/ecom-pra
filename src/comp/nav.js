@@ -67,9 +67,9 @@ const Nav = () => {
                   <div className='icon'>
                     <CiUser />
                   </div>
-                  {/* <div className='info'>
+                  <div className='info'>
                     <p>Please Sign In</p>
-                  </div> */}
+                  </div>
                   </>
                 }
               </div>
