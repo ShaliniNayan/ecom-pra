@@ -106,4 +106,28 @@
     display: flex;
     padding: 10px 10px;
     background: #232323;
+    justify-content: space-between;
+}
+
+.header .bottom_header .menu
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+.header .bottom_header .menu .icon
+{
+    padding: 10px 10px;
+    background: #fff;
+}
+
+.header .bottom_header .menu .info
+{
+    margin-left: 10px;
+}
+
+.header .bottom_header .menu .info h2
+{
+    color: #fff;
+    font-size: 18px;
 }
