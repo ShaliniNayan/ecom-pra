@@ -1,4 +1,8 @@
-*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *
 {
     margin: 0;
     padding: 0;
@@ -109,31 +113,41 @@
     justify-content: space-between;
 }
 
-.header .bottom_header .menu
+.header .bottom_header .profile
 {
     display: flex;
     margin-top: 10px;
 }
 
-.header .bottom_header .menu .icon
+.header .bottom_header .profile .icon
 {
     padding: 10px 10px;
     background: #fff;
 }
 
-.header .bottom_header .menu .info
+.header .bottom_header .profile .info
 {
     margin-left: 10px;
 }
 
-.header .bottom_header .menu .info h2
+.header .bottom_header .profile .info h2
 {
     color: #fff;
     font-size: 18px;
 }
 
-.header .bottom_header .menu .info p
+.header .bottom_header .profile .info p
 {
     color: #ababab;
     font-size: 14px;
 }
+
+.header .bottom_header .nav
+{
+    margin-top: 10px;
+}
+
+.header .bottom_header .nav ul
+{
+    display: flex;
+} */
