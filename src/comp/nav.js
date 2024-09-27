@@ -37,7 +37,7 @@ const Nav = () => {
               placeholder="Search"
               className="p-2 border border-gray-400 rounded-l-md w-64 outline-none"
             />
-            <button className="p-2 bg-pink-600 text-white rounded-r-md border border-pink-600 hover:bg-yellow-400 hover:text-pink-600 transition duration-500 font-semibold">
+            <button className="p-2 ml-2 bg-pink-600 text-white rounded-r-md border border-pink-600 hover:bg-yellow-400 hover:text-pink-600 transition duration-500 font-semibold">
               <AiOutlineSearch />
             </button>
           </div>
