@@ -7,89 +7,132 @@ import { CiLogout, CiUser } from 'react-icons/ci'
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from 'react-router-dom'
 
+
 const Nav = () => {
   const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
   return (
     <>
-      <div>
-        <div className='header'>
-            <div className='top_header'>
-                <div className='icon'>
-                    <MdLocalShipping />
-                </div>
-                <div className='info'>
-                  <p>Free Shipping When Shoping Upto ₹499</p>
-                </div>
-            </div>
-            <div className='mid_header'>
-              <div className='logo'>
-                <img src='image/logo.webp' alt='logo' />
+      <div className="w-full">
+        {/* Top Header */}
+        <div className="flex p-2 bg-gray-100">
+          <div className="ml-5 text-gray-400 text-lg">
+            <MdLocalShipping />
+          </div>
+          <div className="ml-2 text-gray-500">
+            <p>Free Shipping When Shopping Upto ₹499</p>
+          </div>
+        </div>
+
+        {/* Mid Header */}
+        <div className="flex justify-between p-5">
+          {/* Logo */}
+          <div className="cursor-pointer">
+            <img src="image/logo.webp" alt="logo" className="object-cover" />
+          </div>
+
+          {/* Search Bar */}
+          <div className="flex items-center">
+            <input
+              type="text"
+              placeholder="Search"
+              className="p-2 border border-gray-400 rounded-l-md w-64 outline-none"
+            />
+            <button className="p-2 bg-pink-600 text-white rounded-r-md border border-pink-600 hover:bg-yellow-400 hover:text-pink-600 transition duration-500 font-semibold">
+              <AiOutlineSearch />
+            </button>
+          </div>
+
+          {/* User Authentication */}
+          {isAuthenticated ? (
+            <div className="flex items-center mr-8">
+              <div className="mr-3">
+                <CiLogout />
+                <img src={user.picture} alt="user" className="w-8 h-8 rounded-full" />
               </div>
-              <div className='search_bar'>
-                <input type='text' placeholder='Search' />
-                <button><AiOutlineSearch /></button>
-              </div>
-              {
-                isAuthenticated ?
-                //  If user is login then logout button will show and also user profile
-                <div className='user'>
-                  <div className='icon'>
-                    <CiLogout />
-                    <img src={user.picture} alt='user' />
-                  </div>
-                  <div className='btn'>
-                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>
-                  </div>
-                </div> :
-                // if user is not login then login button will show
-                <div className='user'>
-                  <div className='icon'>
-                    <FiLogIn />
-                  </div>
-                  <div className='btn'>
-                    <button onClick={() => loginWithRedirect()}>Sign In</button>
-                  </div>
-                </div>
-              }
-            </div>
-            <div className='bottom_header'>
-              <div className='menu'>
-                {
-                  // User profile will show if user is login
-                  isAuthenticated ?
-                  <>
-                  <CiUser />
-                  <h2>{user.name}</h2>
-                  <p>{user.email}</p>
-                  </>
-                  :
-                  <>
-                  <div className='icon'>
-                    <CiUser />
-                  </div>
-                  <div className='info'>
-                    <p>Please Sign In</p>
-                  </div>
-                  </>
-                }
-              </div>
-              <div className='nav'>
-                <ul>
-                  <li><Link to='/' className='link'>Home</Link></li>
-                  <li><Link to='/shop' className='link'>Shop</Link></li>
-                  <li><Link to='/cart' className='link'>cart</Link></li>
-                  <li><Link to='/about' className='link'>About</Link></li>
-                  <li><Link to='/contact' className='link'>Contact</Link></li>
-                </ul>
-              </div>
-              <div className='discount'>
-                <p>Flat 10% OFF on first order</p>
+              <div>
+                <button
+                  className="text-lg bg-none cursor-pointer"
+                  onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
+                >
+                  Logout
+                </button>
               </div>
             </div>
+          ) : (
+            <div className="flex items-center mr-8">
+              <div className="mr-3">
+                <FiLogIn />
+              </div>
+              <div>
+                <button className="text-lg bg-none cursor-pointer" onClick={() => loginWithRedirect()}>
+                  Sign In
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Bottom Header */}
+        <div className="flex justify-between items-center p-2 bg-gray-900">
+          {/* Profile Info */}
+          <div className="flex items-center">
+            {isAuthenticated ? (
+              <>
+                <CiUser className="text-white text-xl" />
+                <div className="ml-3 text-white">
+                  <h2 className="text-lg">{user.name}</h2>
+                  <p className="text-gray-400 text-sm">{user.email}</p>
+                </div>
+              </>
+            ) : (
+              <>
+                <CiUser className="text-white text-xl" />
+                <div className="ml-3 text-white">
+                  <p>Please Sign In</p>
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* Navigation Links */}
+          <div className="mt-2">
+            <ul className="flex">
+              <li className="ml-4">
+                <Link to="/" className="text-white hover:text-yellow-400">
+                  Home
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link to="/shop" className="text-white hover:text-yellow-400">
+                  Shop
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link to="/cart" className="text-white hover:text-yellow-400">
+                  Cart
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link to="/about" className="text-white hover:text-yellow-400">
+                  About
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link to="/contact" className="text-white hover:text-yellow-400">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Discount Info */}
+          <div className="text-white">
+            <p>Flat 10% OFF on first order</p>
+          </div>
         </div>
       </div>
     </>
   )
 }
 
-export default Nav
+export default Nav;
