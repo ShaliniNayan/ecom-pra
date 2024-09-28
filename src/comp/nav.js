@@ -129,7 +129,7 @@ const Nav = () => {
 
           {/* Discount Info */}
           <div className="text-white">
-            {/* <p>Flat 10% OFF on first order</p> */}
+            <p>Flat 10% OFF on first order</p>
           </div>
         </div>
       </div>
