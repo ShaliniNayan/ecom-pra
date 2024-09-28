@@ -78,7 +78,9 @@ const Nav = () => {
           <div className="flex items-center">
             {isAuthenticated ? (
               <>
-                <CiUser className="text-white text-xl" />
+                <div className="bg-white p-2.5 rounded-full flex items-center justify-center">
+                  <CiUser className="text-black text-3xl" /> {/* Icon size and color */}
+                </div>
                 <div className="ml-3 text-white">
                   <h2 className="text-lg">{user.name}</h2>
                   <p className="text-gray-400 text-sm">{user.email}</p>
@@ -95,7 +97,7 @@ const Nav = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="mt-2">
+          <div className="mt-10">
             <ul className="flex">
               <li className="ml-4">
                 <Link to="/" className="text-white hover:text-yellow-400">
