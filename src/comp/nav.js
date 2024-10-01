@@ -128,7 +128,7 @@ const Nav = () => {
           </div>
 
           {/* Discount Info */}
-          <div className="mr-5 py-2.5 px-5 bg-[#fed700] rounded-lg text-white">
+          <div className="mr-5 py-2.5 px-5 bg-[#fed700] rounded-lg text-black">
             <p>Flat 10% OFF on first order</p>
           </div>
         </div>
