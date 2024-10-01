@@ -120,7 +120,7 @@ const Nav = () => {
                 </Link>
               </li>
               <li className="ml-4">
-                <Link to="/contact" className="text-white hover:text-yellow-400">
+                <Link to="/contact" className="mr-5 text-white font-extrabold no-underline transition duration-500 hover:text-[#fed700]">
                   Contact
                 </Link>
               </li>
