@@ -105,7 +105,7 @@ const Nav = () => {
                 </Link>
               </li>
               <li className="ml-4">
-                <Link to="/shop" className="text-white hover:text-yellow-400">
+                <Link to="/shop" className="mr-5 text-white font-extrabold no-underline transition duration-500 hover:text-[#fed700]">
                   Shop
                 </Link>
               </li>
