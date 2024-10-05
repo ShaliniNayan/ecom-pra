@@ -9,7 +9,7 @@ const Home = () => {
       >
         <h3>Silver Aluminum</h3>
         <h2>Apple Watch</h2>
-        <p>30% OFF</p>
+        <p>30% OFF For Purchase above ₹499</p>
       </div>
     </div>
   );
