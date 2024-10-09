@@ -15,7 +15,7 @@ const Home = () => {
           <p className="text-[#232323] tracking-wider mt-2.5 mb-4">30% OFF on Your First Purchase</p>
           <Link
             to='/shop'
-            // className="inline-block px-8 py-3 bg-[#fed700] text-[#232323] no-underline rounded-md transition duration-500 hover:text-[#fed700] hover:bg-[#cd1e76] mt-2"
+            className="inline-block px-8 py-3 bg-[#fed700] text-[#232323] no-underline rounded-md transition duration-500 hover:text-[#fed700] hover:bg-[#cd1e76] mt-2"
           >
             Shop Now
           </Link>
