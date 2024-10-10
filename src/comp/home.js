@@ -21,6 +21,13 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <div className='trending'>
+        <div className='container'>
+          <div className='left_box'>
+            <div className='header'></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
