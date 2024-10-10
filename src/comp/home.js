@@ -24,7 +24,11 @@ const Home = () => {
       <div className='trending'>
         <div className='container'>
           <div className='left_box'>
-            <div className='header'></div>
+            <div className='header'>
+              <div className='heading'>
+                <h2>Treanding Products</h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
