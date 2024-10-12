@@ -21,7 +21,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className='trending'>
+      <div className="px-7.5 py-5 w-[100px]">
         <div className='container'>
           <div className='left_box'>
             <div className='header'>
