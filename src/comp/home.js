@@ -28,10 +28,15 @@ const Home = () => {
               <div className='heading'>
                 <h2>Treanding Products</h2>
               </div>
+              <div className='category'>
+                <h3>New</h3>
+                <h3>Featured</h3>
+                <h3>Best Selling</h3>
+              </div>
             </div>
           </div>
           <div className='right_box'>
-            
+
           </div>
         </div>
       </div>
