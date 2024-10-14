@@ -22,7 +22,7 @@ const Home = () => {
         </div>
       </div>
       <div className="px-7.5 py-5 w-full">
-        <div className='container'>
+        <div className="max-w-full flex">
           <div className='left_box'>
             <div className='header'>
               <div className='heading'>
