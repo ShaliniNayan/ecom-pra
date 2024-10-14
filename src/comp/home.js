@@ -26,9 +26,9 @@ const Home = () => {
           <div className="px-5 py-2.5 w-3/4">
             <div className="flex max-w-full p-2.5 bg-[#f6f7f8] justify-between">
               <div className='heading'>
-                <h2>Treanding Products</h2>
+                <h2 className="uppercase text-[16px] text-[#232323] mt-5">Treanding Products</h2>
               </div>
-              <div className='category'>
+              <div className="flex mt-5">
                 <h3>New</h3>
                 <h3>Featured</h3>
                 <h3>Best Selling</h3>
