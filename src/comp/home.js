@@ -23,7 +23,7 @@ const Home = () => {
       </div>
       <div className="px-7.5 py-5 w-full">
         <div className="max-w-full flex">
-          <div className='left_box'>
+          <div className="px-5 py-2.5 w-3/4">
             <div className='header'>
               <div className='heading'>
                 <h2>Treanding Products</h2>
