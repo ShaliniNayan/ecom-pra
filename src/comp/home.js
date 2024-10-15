@@ -29,9 +29,9 @@ const Home = () => {
                 <h2 className="uppercase text-[16px] text-[#232323] mt-5">Treanding Products</h2>
               </div>
               <div className="flex mt-5">
-                <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">New</h3>
-                <h3>Featured</h3>
-                <h3>Best Selling</h3>
+                <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">New</h3>
+                <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">Featured</h3>
+                <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">Best Selling</h3>
               </div>
             </div>
           </div>
