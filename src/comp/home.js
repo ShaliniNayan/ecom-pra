@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.css'
 import { Link } from 'react-router-dom'
+import Homeproduct from './home_product';
 
 const Home = () => {
+  const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
   return (
     <div className="w-full">
       <div 
@@ -35,7 +37,18 @@ const Home = () => {
               </div>
             </div>
             <div className="priducts">
-              <div className="max-w-full flex"></div>
+              <div className="max-w-full flex">
+                {
+                  trendingProduct.map((curElem) => 
+                  {
+                    return(
+                      <>
+                        <div className='box'></div>
+                      </>
+                    )
+                  })
+                }
+              </div>
             </div>
           </div>
           <div className='right_box'>
