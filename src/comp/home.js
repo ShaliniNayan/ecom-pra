@@ -44,7 +44,7 @@ const Home = () => {
                       <>
                         <div key={curElem.id} className='box'>
                           <div className='img_box'>
-                            <img src={curElem.image} alt={curElem.Name} />
+                            <img src={curElem.image} alt='' />
                           </div>
                         </div>
                       </>
