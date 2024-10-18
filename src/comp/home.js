@@ -1,13 +1,10 @@
-// home.js
-
 import React, { useState } from 'react';
-import './nav.css';
-import { Link } from 'react-router-dom';
+import './nav.css'
+import { Link } from 'react-router-dom'
 import Homeproduct from './home_product';
 
 const Home = () => {
-  const [trendingProduct] = useState(Homeproduct);
-
+  const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
   return (
     <>
       <div className="w-full">
@@ -27,38 +24,38 @@ const Home = () => {
             </Link>
           </div>
         </div>
-
         <div className="px-7.5 py-5 w-full">
           <div className="max-w-full flex">
             <div className="px-5 py-2.5 w-3/4">
               <div className="flex max-w-full p-2.5 bg-[#f6f7f8] justify-between">
                 <div className='heading'>
-                  <h2 className="uppercase text-[16px] text-[#232323] mt-5">Trending Products</h2>
+                  <h2 className="uppercase text-[16px] text-[#232323] mt-5">Treanding Products</h2>
                 </div>
                 <div className="flex mt-5">
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">New</h3>
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Featured</h3>
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Best Selling</h3>
+                  <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">New</h3>
+                  <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">Featured</h3>
+                  <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">Best Selling</h3>
                 </div>
               </div>
-
               <div className='products'>
-                <div className="max-w-full flex flex-wrap gap-4">
-                  {trendingProduct.map((curElem) => (
-                    <div key={curElem.id} className='box border p-4 bg-white shadow-sm'>
-                      <div className='img_box mb-2'>
-                        <img src={curElem.image} alt={curElem.Name} className='w-full h-auto object-cover' />
-                      </div>
-                      <h3 className="text-[#232323] font-medium">{curElem.Name}</h3>
-                      <p className="text-[#cd1e76] font-bold">${curElem.price}</p>
-                    </div>
-                  ))}
+                <div className="max-w-full flex">
+                  {trendingProduct.map((curElem) => {
+                    return (
+                      <>
+                        <div key={curElem.id} className='box'>
+                          <div className='img_box'>
+                            <img src={curElem.image} alt={curElem.Name} />
+                          </div>
+                        </div>
+                      </>
+                    );
+                  })}
                 </div>
               </div>
-            </div>
 
+            </div>
             <div className='right_box'>
-              {/* Additional content for the right box if needed */}
+
             </div>
           </div>
         </div>
