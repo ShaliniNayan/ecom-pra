@@ -42,7 +42,7 @@ const Home = () => {
                   {trendingProduct.map((curElem) => {
                     return (
                       <>
-                        <div key={curElem.id} className='box'>
+                        <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-2 border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md">
                           <div className='img_box'>
                             <img src={curElem.image} alt='' />
                           </div>
