@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './nav.css'
 import { Link } from 'react-router-dom'
 import Homeproduct from './home_product';
+import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
 const Home = () => {
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
@@ -46,6 +47,14 @@ const Home = () => {
                           mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md">
                           <div className="w-[190px] h-[190px] object-cover">
                             <img src={curElem.image} alt='' />
+                            <div className='icon'>
+                              <div className='icon_box'>
+                                <AiFillEye />
+                              </div>
+                              <div className='icon_box'>
+                                <AiFillHeart />
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </>
