@@ -48,10 +48,10 @@ const Home = () => {
                           <div className="w-[190px] h-[190px] object-cover">
                             <img src={curElem.image} alt='' />
                             <div className='icon flex flex-col -ml-[35%] mt-2.5 transition duration-500'>
-                              <div className='icon_box'>
+                              <div className='icon_box p-2.5 mt-2.5 shadow-md z-10 bg-white text-[#cd1e76] transition duration-500 hover:text-white hover:bg-[#cd1e76]'>
                                 <AiFillEye />
                               </div>
-                              <div className='icon_box'>
+                              <div className='icon_box p-2.5 mt-2.5 shadow-md z-10 bg-white text-[#cd1e76] transition duration-500 hover:text-white hover:bg-[#cd1e76]'>
                                 <AiFillHeart />
                               </div>
                             </div>
