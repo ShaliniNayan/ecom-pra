@@ -47,7 +47,7 @@ const Home = () => {
                           mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md">
                           <div className="w-[190px] h-[190px] object-cover">
                             <img src={curElem.image} alt='' />
-                            <div className='icon flex flex-col -ml-[30%] mt-2.5 transition duration-500'>
+                            <div className='icon flex flex-col -ml-[35%] mt-2.5 transition duration-500'>
                               <div className='icon_box'>
                                 <AiFillEye />
                               </div>
