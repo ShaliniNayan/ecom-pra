@@ -47,10 +47,10 @@ const Home = () => {
                         <div className="w-[190px] h-[190px] relative overflow-hidden">
                           <img src={curElem.image} alt='' className="w-full h-full object-cover" />
                           <div className="icon absolute top-2 right-2 flex flex-col space-y-2">
-                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                            <div className="icon_box mr-2.5 p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full       transition duration-500 hover:text-white hover:bg-[#cd1e76]">
                               <AiFillEye />
                             </div>
-                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                            <div className="icon_box mr-2.5 p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
                               <AiFillHeart />
                             </div>
                           </div>
@@ -63,7 +63,7 @@ const Home = () => {
 
             </div>
             <div className='right_box'>
-              {/* Add content for right box if needed */}
+              
             </div>
           </div>
         </div>
