@@ -30,34 +30,32 @@ const Home = () => {
             <div className="px-5 py-2.5 w-3/4">
               <div className="flex max-w-full p-2.5 bg-[#f6f7f8] justify-between">
                 <div className='heading'>
-                  <h2 className="uppercase text-[16px] text-[#232323] mt-5">Treanding Products</h2>
+                  <h2 className="uppercase text-[16px] text-[#232323] mt-5">Trending Products</h2>
                 </div>
                 <div className="flex mt-5">
-                  <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">New</h3>
-                  <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">Featured</h3>
-                  <h3 className="captialize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] hover:text-[#cd1e76]">Best Selling</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">New</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Featured</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Best Selling</h3>
                 </div>
               </div>
               <div className='max-w-full'>
                 <div className="flex flex-wrap w-full">
                   {trendingProduct.map((curElem) => {
                     return (
-                      <>
-                        <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] 
-                          mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md">
-                          <div className="w-[190px] h-[190px] object-cover">
-                            <img src={curElem.image} alt='' />
-                            <div className='icon flex flex-col -ml-[35%] mt-2.5 transition duration-500'>
-                              <div className='icon_box p-2.5 mt-2.5 shadow-md z-10 bg-white text-[#cd1e76] transition duration-500 hover:text-white hover:bg-[#cd1e76]'>
-                                <AiFillEye />
-                              </div>
-                              <div className='icon_box p-2.5 mt-2.5 shadow-md z-10 bg-white text-[#cd1e76] transition duration-500 hover:text-white hover:bg-[#cd1e76]'>
-                                <AiFillHeart />
-                              </div>
+                      <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] 
+                        mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md">
+                        <div className="w-[190px] h-[190px] relative overflow-hidden">
+                          <img src={curElem.image} alt='' className="w-full h-full object-cover" />
+                          <div className="icon absolute top-2 right-2 flex flex-col space-y-2">
+                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                              <AiFillEye />
+                            </div>
+                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                              <AiFillHeart />
                             </div>
                           </div>
                         </div>
-                      </>
+                      </div>
                     );
                   })}
                 </div>
@@ -65,7 +63,7 @@ const Home = () => {
 
             </div>
             <div className='right_box'>
-
+              {/* Add content for right box if needed */}
             </div>
           </div>
         </div>
