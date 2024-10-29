@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './nav.css'
-import { Link } from 'react-router-dom'
+import './nav.css';
+import { Link } from 'react-router-dom';
 import Homeproduct from './home_product';
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
 const Home = () => {
-  const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
+  const [trendingProduct] = useState(Homeproduct);
   return (
     <>
       <div className="w-full">
@@ -38,26 +38,23 @@ const Home = () => {
                   <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Best Selling</h3>
                 </div>
               </div>
-              <div className='max-w-full'>
+              <div className="max-w-full">
                 <div className="flex flex-wrap w-full">
-                  {trendingProduct.map((curElem) => {
-                    return (
-                      <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] 
-                        mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative">
-                        <div className="w-[190px] h-[190px] relative overflow-hidden">
-                          <img src={curElem.image} alt='' className="w-full h-full object-cover" />
-                          <div className="icon absolute flex flex-col ml-0 mt-2.5 transition-all duration-500 hover:ml-[-35%]">
-                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
-                              <AiFillEye />
-                            </div>
-                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76] mt-2">
-                              <AiFillHeart />
-                            </div>
+                  {trendingProduct.map((curElem) => (
+                    <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative group">
+                      <div className="w-[190px] h-[190px] relative overflow-hidden">
+                        <img src={curElem.image} alt={curElem.name} className="w-full h-full object-cover" />
+                        <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                          <div className="icon_box p-2.5 mb-2 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                            <AiFillEye size={20} />
+                          </div>
+                          <div className="icon_box p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                            <AiFillHeart size={20} />
                           </div>
                         </div>
                       </div>
-                    );
-                  })}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
