@@ -44,8 +44,8 @@ const Home = () => {
                     <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative group">
                       <div className="w-[190px] h-[190px] relative overflow-hidden">
                         <img src={curElem.image} alt={curElem.name} className="w-full h-full object-cover" />
-                        <div className="absolute right-2 top-1/2 transform -translate-y-1/2 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                          <div className="icon_box p-2.5 mb-2 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                        <div className="icon absolute right-3 top-1/2 transform -translate-y-1/2 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                          <div className="icon_box mb-2 p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
                             <AiFillEye size={20} />
                           </div>
                           <div className="icon_box p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
