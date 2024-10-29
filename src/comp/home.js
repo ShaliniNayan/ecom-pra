@@ -13,7 +13,7 @@ const Home = () => {
           className="w-full h-[395px] p-[50px_60px] bg-cover bg-no-repeat" 
           style={{ backgroundImage: "url('http://localhost:3000/image/slide-1.webp')" }}
         >
-          <div className="w-full relative p-[10px_50px]" style={{top: '20%'}}>
+          <div className="w-full relative p-[10px_50px]" style={{ top: '20%' }}>
             <h3 className="capitalize text-[#cd1e76] font-semibold tracking-wider">Silver Aluminum</h3>
             <h2 className="uppercase text-[#232323] font-semibold tracking-wider text-[42px] mt-2.5">Apple Watch</h2>
             <p className="text-[#232323] tracking-wider mt-2.5 mb-4">30% OFF on Your First Purchase</p>
@@ -43,14 +43,14 @@ const Home = () => {
                   {trendingProduct.map((curElem) => {
                     return (
                       <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] 
-                        mt-5 ml-0 mr-5 bg-[#f6f7f8] overflow-hidden rounded-md">
+                        mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative">
                         <div className="w-[190px] h-[190px] relative overflow-hidden">
                           <img src={curElem.image} alt='' className="w-full h-full object-cover" />
-                          <div className="icon absolute top-2 right-2 flex flex-col space-y-2">
-                            <div className="icon_box mr-2.5 p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full       transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                          <div className="icon absolute flex flex-col ml-0 mt-2.5 transition-all duration-500 hover:ml-[-35%]">
+                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
                               <AiFillEye />
                             </div>
-                            <div className="icon_box mr-2.5 p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                            <div className="icon_box p-2.5 shadow-md z-10 bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76] mt-2">
                               <AiFillHeart />
                             </div>
                           </div>
@@ -60,7 +60,6 @@ const Home = () => {
                   })}
                 </div>
               </div>
-
             </div>
             <div className='right_box'>
               
