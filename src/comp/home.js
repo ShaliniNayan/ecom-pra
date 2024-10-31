@@ -59,7 +59,7 @@ const Home = () => {
               </div>
             </div>
             <div className='right_box'>
-              
+              <div></div>
             </div>
           </div>
         </div>
