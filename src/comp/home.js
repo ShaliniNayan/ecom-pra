@@ -59,7 +59,11 @@ const Home = () => {
               </div>
             </div>
             <div className='right_box'>
-              <div></div>
+              <div>
+                <div className="w-full p-2.5 bg-[#f6f7f8]">
+                  <div></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
