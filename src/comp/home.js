@@ -61,9 +61,6 @@ const Home = () => {
             <div className='right_box'>
               <div>
                 <div className="w-full p-2.5 bg-[#f6f7f8]"></div>
-                <div className="w-full p-2.5 bg-[#f6f7f8]"></div>
-                <div className="w-full p-2.5 bg-[#f6f7f8]"></div>                  
-                
               </div>
             </div>
           </div>
