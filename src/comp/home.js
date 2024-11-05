@@ -45,14 +45,15 @@ const Home = () => {
                       <div className="w-[190px] h-[190px] relative overflow-hidden">
                         <img src={curElem.image} alt={curElem.name} className="w-full h-full object-cover" />
                         <div className="icon absolute right-3 top-1/2 transform -translate-y-1/2 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                          <div className="icon_box mb-2 p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                          <div className="icon_box mb-2 p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76] cursor-pointer">
                             <AiFillEye size={20} />
                           </div>
-                          <div className="icon_box p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76]">
+                          <div className="icon_box p-2.5 shadow-md bg-white text-[#cd1e76] rounded-full transition duration-500 hover:text-white hover:bg-[#cd1e76] cursor-pointer">
                             <AiFillHeart size={20} />
                           </div>
                         </div>
                       </div>
+                      <div className='info'></div>
                     </div>
                   ))}
                 </div>
