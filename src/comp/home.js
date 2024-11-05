@@ -53,7 +53,10 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                      <div className='info'></div>
+                      <div className='info'>
+                        <h3>{curElem.Name}</h3>
+                        <p>₹{curElem.price}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
