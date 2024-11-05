@@ -56,6 +56,7 @@ const Home = () => {
                       <div className='info'>
                         <h3>{curElem.Name}</h3>
                         <p>₹{curElem.price}</p>
+                        <button className='btn'>Add To Cart</button>
                       </div>
                     </div>
                   ))}
