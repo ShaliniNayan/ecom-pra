@@ -53,8 +53,8 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                      <div className='info'>
-                        <h3>{curElem.Name}</h3>
+                      <div className='info p-[10px] ml-[10px]'>
+                        <h3 className="uppercase text-[14px] text-[#cd1e76] font-light tracking-[1px]">{curElem.Name}</h3>
                         <p>₹{curElem.price}</p>
                         <button className='btn'>Add To Cart</button>
                       </div>
