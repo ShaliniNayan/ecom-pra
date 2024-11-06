@@ -54,8 +54,8 @@ const Home = () => {
                         </div>
                       </div>
                       <div className='info p-[10px] ml-[10px]'>
-                        <h3 className="uppercase text-[14px] text-[#cd1e76] font-light tracking-[1px]">{curElem.Name}</h3>
-                        <p>₹{curElem.price}</p>
+                        <h3 className="uppercase text-[14px] text-[#232323] font-light tracking-[1px]">{curElem.Name}</h3>
+                        <p className="text-[#cd1e76] mt-2.5 text-[14px] tracking-[1px]">₹{curElem.price}</p>
                         <button className='btn'>Add To Cart</button>
                       </div>
                     </div>
