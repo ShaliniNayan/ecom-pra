@@ -5,7 +5,13 @@ import Homeproduct from './home_product';
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
 const Home = () => {
-  const [trendingProduct] = useState(Homeproduct);
+  const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
+
+  const filtercate = (category) => {
+    const filteredProducts = Homeproduct.filter(product => product.category === category);
+    setTrendingProduct(filteredProducts);
+  };
+
   return (
     <>
       <div className="w-full">
@@ -33,15 +39,15 @@ const Home = () => {
                   <h2 className="uppercase text-[16px] text-[#232323] mt-5">Trending Products</h2>
                 </div>
                 <div className="flex mt-5">
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">New</h3>
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Featured</h3>
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]">Best Selling</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]" onClick={() => filtercate('new')}>New</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]" onClick={() => filtercate('featured')}>Featured</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]" onClick={() => filtercate('best')}>Best Selling</h3>
                 </div>
               </div>
               <div className="max-w-full">
                 <div className="flex flex-wrap w-full">
                   {trendingProduct.map((curElem) => (
-                    <div key={curElem.id} className="w-[195px] h-[330px] p-2.5 border-[4px] border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative group">
+                    <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative group">
                       <div className="w-[190px] h-[190px] relative overflow-hidden">
                         <img src={curElem.image} alt={curElem.name} className="w-full h-full object-cover" />
                         <div className="icon absolute right-3 top-1/2 transform -translate-y-1/2 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -55,8 +61,8 @@ const Home = () => {
                       </div>
                       <div className='info p-[10px] ml-[10px]'>
                         <h3 className="uppercase text-[14px] text-[#232323] font-light tracking-[1px]">{curElem.Name}</h3>
-                        <p className="text-[#cd1e76] mt-1.5 text-[14px] tracking-[1px]">₹{curElem.price}</p>
-                        <button className='btn mt-3 px-5 py-1.5 bg-[#fed700] text-[#232323] capitalize rounded-md transition duration-500 hover:bg-[#cd1e76] hover:text-white'>
+                        <p className="text-[#cd1e76] mt-2 text-[14px] tracking-[1px]">₹{curElem.price}</p>
+                        <button className="mt-3 px-4 py-2 bg-[#fed700] text-[#232323] capitalize rounded-md transition duration-500 hover:bg-[#cd1e76] hover:text-white">
                           Add To Cart
                         </button>
                       </div>
