@@ -56,7 +56,7 @@ const Home = () => {
                       <div className='info p-[10px] ml-[10px]'>
                         <h3 className="uppercase text-[14px] text-[#232323] font-light tracking-[1px]">{curElem.Name}</h3>
                         <p className="text-[#cd1e76] mt-1.5 text-[14px] tracking-[1px]">₹{curElem.price}</p>
-                        <button className='btn mt-3 px-4 py-2 bg-[#fed700] text-[#232323] capitalize rounded-md transition duration-500 hover:bg-[#cd1e76] hover:text-white'>
+                        <button className='btn mt-3 px-5 py-1.5 bg-[#fed700] text-[#232323] capitalize rounded-md transition duration-500 hover:bg-[#cd1e76] hover:text-white'>
                           Add To Cart
                         </button>
                       </div>
