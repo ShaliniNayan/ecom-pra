@@ -47,7 +47,7 @@ const Home = () => {
               <div className="max-w-full">
                 <div className="flex flex-wrap w-full">
                   {trendingProduct.map((curElem) => (
-                    <div key={curElem.id} className="w-[195px] h-[295px] p-2.5 border-[4px] border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative group">
+                    <div key={curElem.id} className="w-[195px] h-[330px] p-2.5 border-[4px] border-[#f6f7f8] mt-5 ml-5 bg-[#f6f7f8] overflow-hidden rounded-md relative group">
                       <div className="w-[190px] h-[190px] relative overflow-hidden">
                         <img src={curElem.image} alt={curElem.name} className="w-full h-full object-cover" />
                         <div className="icon absolute right-3 top-1/2 transform -translate-y-1/2 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-500">
