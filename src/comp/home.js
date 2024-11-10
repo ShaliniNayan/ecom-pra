@@ -73,6 +73,9 @@ const Home = () => {
             </div>
             <div className='right_box'>
               <div>
+                <div>
+                  <div></div>
+                </div>
               </div>
             </div>
           </div>
