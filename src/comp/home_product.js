@@ -31,7 +31,7 @@ const Homeproduct = [
       price: '160',
       image: `${process.env.PUBLIC_URL}/image/p4.webp`,
       cat: '',
-      type: 'new',
+      type: 'featured',
     },
     {
       id: 5,
@@ -39,7 +39,7 @@ const Homeproduct = [
       price: '180',
       image: `${process.env.PUBLIC_URL}/image/p5.webp`,
       cat: '',
-      type: 'new',
+      type: 'featured',
     },
     {
       id: 6,
@@ -47,7 +47,7 @@ const Homeproduct = [
       price: '200',
       image: `${process.env.PUBLIC_URL}/image/p6.webp`,
       cat: '',
-      type: 'new',
+      type: 'top',
     },
     {
       id: 7,
@@ -55,7 +55,7 @@ const Homeproduct = [
       price: '220',
       image: `${process.env.PUBLIC_URL}/image/p7.webp`,
       cat: '',
-      type: 'new',
+      type: 'top',
     },
     {
       id: 8,
@@ -63,7 +63,7 @@ const Homeproduct = [
       price: '240',
       image: `${process.env.PUBLIC_URL}/image/p8.webp`,
       cat: '',
-      type: 'new',
+      type: 'top',
     },
   ];
   
