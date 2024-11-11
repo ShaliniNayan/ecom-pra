@@ -7,9 +7,11 @@ import { AiFillEye, AiFillHeart } from "react-icons/ai";
 const Home = () => {
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
 
-  const filtercate = (category) => {
-    const filteredProducts = Homeproduct.filter(product => product.category === category);
-    setTrendingProduct(filteredProducts);
+  const filtercate = (x) => {
+    const filterproduct = Homeproduct.filter((curElm) => {
+      return curElm.cat === x;
+    });
+    setTrendingProduct(filterproduct);
   };
 
   return (
@@ -36,12 +38,12 @@ const Home = () => {
             <div className="px-5 py-2.5 w-3/4">
               <div className="flex max-w-full p-2.5 bg-[#f6f7f8] justify-between">
                 <div className='heading'>
-                  <h2 className="uppercase text-[16px] text-[#232323] mt-5">Trending Products</h2>
+                  <h2 className="uppercase text-[16px] text-[#232323] mt-5 font-semibold">Trending Products</h2>
                 </div>
                 <div className="flex mt-5">
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]" onClick={() => filtercate('new')}>New</h3>
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]" onClick={() => filtercate('featured')}>Featured</h3>
-                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76]" onClick={() => filtercate('best')}>Best Selling</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] font-semibold" onClick={() => filtercate  ('new')}>New</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] font-semibold" onClick={() => filtercate ('featured')}>Featured</h3>
+                  <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] font-semibold" onClick={() => filtercate ('top')}>Best Selling</h3>
                 </div>
               </div>
               <div className="max-w-full">
