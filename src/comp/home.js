@@ -14,6 +14,10 @@ const Home = () => {
     setTrendingProduct(filterproduct);
   };
 
+  const allTrendingProduct = () => {
+    setTrendingProduct(Homeproduct);
+  };
+
   return (
     <>
       <div className="w-full">
@@ -38,7 +42,7 @@ const Home = () => {
             <div className="px-5 py-2.5 w-3/4">
               <div className="flex max-w-full p-2.5 bg-[#f6f7f8] justify-between">
                 <div className='heading'>
-                  <h2 className="uppercase text-[16px] text-[#232323] mt-5 font-semibold">Trending Products</h2>
+                  <h2 className="cursor-pointer uppercase text-[16px] text-[#232323] mt-5 font-semibold" onClick={() => allTrendingProduct()}>Trending Products</h2>
                 </div>
                 <div className="flex mt-5">
                   <h3 className="capitalize mr-5 text-[#232323] text-[14px] cursor-pointer transition duration-500 hover:text-[#cd1e76] font-semibold" onClick={() => filtercate  ('new')}>New</h3>
