@@ -78,7 +78,8 @@ const Home = () => {
               </div>
             </div>
             <div className='right_box'>
-              <div>             
+              <div className='container'>
+                <div className='testimonial'></div>            
               </div>
             </div>
           </div>
