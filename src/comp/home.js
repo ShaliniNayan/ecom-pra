@@ -8,12 +8,10 @@ const Home = () => {
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
 
   const filtercate = (x) => {
-    const filterproduct = Homeproduct.filter((curElm) => {
-      return curElm.cat === x;
-    });
-    setTrendingProduct(filterproduct);
+    const filteredProducts = Homeproduct.filter((curElm) => curElm.type === x);
+    setTrendingProduct(filteredProducts);
   };
-
+  
   const allTrendingProduct = () => {
     setTrendingProduct(Homeproduct);
   };
