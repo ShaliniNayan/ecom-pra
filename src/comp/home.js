@@ -81,7 +81,11 @@ const Home = () => {
                   <div className='head'>
                     <h3>Our Testimonial</h3>
                   </div>
-                  <div className='detail'></div>
+                  <div className='detail'>
+                    <div className='img_box'>
+                      <img src='image/T1.avif' alt='testimonial'></img>
+                    </div>
+                  </div>
                 </div>            
               </div>
             </div>
