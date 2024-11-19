@@ -78,9 +78,10 @@ const Home = () => {
             <div className='right_box'>
               <div className='container max-w-full flex'>
                 <div className='testimonial'>
-                  <div>
-                    <div></div>
+                  <div className='head'>
+                    <h3>Our Testimonial</h3>
                   </div>
+                  <div className='detail'></div>
                 </div>            
               </div>
             </div>
