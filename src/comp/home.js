@@ -81,9 +81,9 @@ const Home = () => {
                   <div className='head px-[10px] py-[10px] w-[100%] bg-#f6f7f8'>
                     <h3 className="text-center text-[#232323] text-[16px] uppercase mt-[10px] tracking-[1px]">Our Testimonial</h3>
                   </div>
-                  <div className='detail'>
+                  <div className='detail px-[10px] py-[20px]'>
                     <div className='img_box'>
-                      <img src='image/T1.avif' alt='testimonial'></img>
+                      <img className='ml-[50px]' src='image/T1.avif' alt='testimonial'></img>
                     </div>
                   </div>
                 </div>            
