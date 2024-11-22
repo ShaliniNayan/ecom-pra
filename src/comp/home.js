@@ -85,7 +85,7 @@ const Home = () => {
                     <div className='img_box'>
                       <img className='ml-[50px]' src='image/T1.avif' alt='testimonial'></img>
                     </div>
-                    <div className='info'>
+                    <div className='info mt-[10px]'>
                       <h3>Emmanual Musangranfa</h3>
                       <h4>Web Designer</h4>
                       <p>lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
