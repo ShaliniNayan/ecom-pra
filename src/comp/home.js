@@ -98,6 +98,17 @@ const Home = () => {
                   </div>
                   <div className='form'>
                     <p>Subscribe to our newsletter to stay updated on our latest offers and news.</p>
+                    <input 
+                      type="email" 
+                      placeholder="Enter your email" 
+                      autoComplete='off'
+                      className="w-[80%] p-2 border border-[#cd1e76] rounded-md mb-[10px]" 
+                    />
+                    <button 
+                      type="submit" 
+                      className="px-4 py-2 bg-[#fed700] text-[#232323] rounded-md transition hover:bg-[#cd1e76] hover:text-white">
+                      Subscribe
+                    </button>
                   </div>
                 </div>           
               </div>
