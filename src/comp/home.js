@@ -75,23 +75,28 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='right_box font-semibold p-[10px] px-[20px] w-[24%]'>
-              <div className='container max-w-full flex'>
+            <div className='right_box font-semibold p-[10px] px-[20px] w-[24%] display-flex flex-col'>
+              <div className='right_container max-w-full flex'>
                 <div className='testimonial w-[100%] border-4 border-[#f6f7f8]'>
                   <div className='head px-[10px] py-[10px] w-[100%] bg-#f6f7f8'>
                     <h3 className="text-center text-[#232323] text-[16px] uppercase mt-[10px] tracking-[1px]">Our Testimonial</h3>
                   </div>
                   <div className='detail px-[10px] py-[20px]'>
                     <div className='img_box'>
-                      <img className='ml-[50px]' src='image/T1.avif' alt='testimonial'></img>
+                      <img className='ml-[50px] mt-[40px]' src='image/T1.avif' alt='testimonial'></img>
                     </div>
                     <div className='info mt-[10px]'>
                       <h3 className="text-center text-[#232323] text-[14px] uppercase">Emmanual Musangranfa</h3>
                       <h4 className="text-center text-[12px] mt-[10px] text-[#cd1e76] font-light uppercase font-semibold">Web Designer</h4>
-                      <p className="text-center font-semibold text-[#232323] text-[14px]">lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <p className="text-center font-semibold text-[#232323] text-[14px] mb-[20px]">lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                   </div>
-                </div>            
+                </div> 
+                <div className='newsletter '>
+                <div className='head px-[10px] py-[10px] w-[100%] bg-#f6f7f8'>
+                    <h3 className="text-center text-[#232323] text-[16px] uppercase mt-[10px] tracking-[1px]">Newsletter</h3>
+                  </div>
+                </div>           
               </div>
             </div>
           </div>
