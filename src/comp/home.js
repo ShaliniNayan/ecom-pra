@@ -3,7 +3,7 @@ import './nav.css';
 import { Link } from 'react-router-dom';
 import Homeproduct from './home_product';
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
-import { BiLogoTwitter } from 'react-icons/bi';
+import { BiLogoGithub, BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi';
 
 const Home = () => {
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
@@ -113,6 +113,12 @@ const Home = () => {
                     <div className='icon_box'>
                       <div className='icon'>
                         <BiLogoTwitter />
+                      </div>
+                      <div className='icon'>
+                        <BiLogoLinkedin />
+                      </div>
+                      <div className='icon'>
+                        <BiLogoGithub />
                       </div>
                     </div>
                   </div>
