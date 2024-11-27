@@ -88,7 +88,7 @@ const Home = () => {
                     <div className='info mt-[10px]'>
                       <h3 className="text-center text-[#232323] text-[14px] uppercase">Emmanual Musangranfa</h3>
                       <h4 className="text-center text-[12px] mt-[10px] text-[#cd1e76] font-light uppercase font-semibold">Web Designer</h4>
-                      <p className="mt-[10px] text-center font-semibold text-[#232323] text-[14px]">lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <p className="text-center font-semibold text-[#232323] text-[14px]">lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                   </div>
                 </div>            
