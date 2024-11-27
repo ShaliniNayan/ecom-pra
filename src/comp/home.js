@@ -3,6 +3,7 @@ import './nav.css';
 import { Link } from 'react-router-dom';
 import Homeproduct from './home_product';
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
+import { BiLogoTwitter } from 'react-icons/bi';
 
 const Home = () => {
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
@@ -109,6 +110,11 @@ const Home = () => {
                       className="px-4 py-2 bg-[#fed700] text-[#232323] rounded-md transition hover:bg-[#cd1e76] hover:text-white">
                       Subscribe
                     </button>
+                    <div className='icon_box'>
+                      <div className='icon'>
+                        <BiLogoTwitter />
+                      </div>
+                    </div>
                   </div>
                 </div>           
               </div>
