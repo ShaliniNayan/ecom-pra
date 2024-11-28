@@ -94,7 +94,7 @@ const Home = () => {
                   </div>
                 </div> 
                 <div className='newsletter w-[100%] bg-[#f6f7f8] mt-[20px] px-[10px] py-[10px]'>
-                <div className='head px-[10px] py-[10px] w-[100%] bg-#f6f7f8'>
+                <div className='head px-[10px] py-[10px] w-[100%] bg-#f6f7f8 mt-[10px]'>
                     <h3 className="text-center text-[#232323] text-[16px] uppercase mt-[10px] tracking-[1px]">Newsletter</h3>
                   </div>
                   <div className='form'>
