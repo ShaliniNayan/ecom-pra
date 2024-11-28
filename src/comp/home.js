@@ -103,7 +103,7 @@ const Home = () => {
                       type="email" 
                       placeholder="Enter your email" 
                       autoComplete='off'
-                      className="w-[80%] p-2 border border-[#cd1e76] rounded-md mb-[10px]" 
+                      className="mt-[10px] w-full p-[10px] bg-none outline-none border border-[#Bababa] text-[#232323]" 
                     />
                     <button 
                       type="submit" 
