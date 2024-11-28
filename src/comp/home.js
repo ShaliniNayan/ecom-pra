@@ -98,7 +98,7 @@ const Home = () => {
                     <h3 className="text-center text-[#232323] text-[16px] uppercase mt-[10px] tracking-[1px]">Newsletter</h3>
                   </div>
                   <div className='form mt-[10px] width-[100%]'>
-                    <p className='text-center capitalize text-[#Bababa]'>Subscribe to our newsletter to stay updated on our latest offers and news.</p>
+                    <p className='text-center capitalize text-[#Bababa],   '>Subscribe to our newsletter to stay updated on our latest offers and news.</p>
                     <input 
                       type="email" 
                       placeholder="Enter your email" 
