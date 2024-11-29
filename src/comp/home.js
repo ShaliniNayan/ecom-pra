@@ -110,7 +110,7 @@ const Home = () => {
                       className="px-4 py-2 bg-[#fed700] text-[#232323] rounded-md transition hover:bg-[#cd1e76] hover:text-white">
                       Subscribe
                     </button>
-                    <div className='icon_box'>
+                    <div className='icon_box mt-[20px] w-[100%] display-flex flex justify-space-between'>
                       <div className='icon'>
                         <BiLogoTwitter />
                       </div>
