@@ -120,7 +120,11 @@ const Home = () => {
                       <div className='icon px-[10px] py-[10px] rounded-full border border-[#cd1e76] mb-[30px] cursor-pointer transition duration-500 text-[#cd1e76]'>
                         <BiLogoGithub />
                       </div>
-                      <div></div>
+                      <div>
+                        <div>
+                          
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>           
