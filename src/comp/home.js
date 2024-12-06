@@ -110,20 +110,20 @@ const Home = () => {
                       className="px-4 py-2 bg-[#fed700] text-[#232323] rounded-md transition hover:bg-[#cd1e76] hover:text-white">
                       Subscribe
                     </button>
-                    <div className='icon_box mt-[20px] w-[100%] display-flex flex justify-space-between'>
-                      <div className='icon px-[10px] py-[10px] rounded-full border border-   [#cd1e76] mb-[30px] cursor-pointer transition duration-500 text-[#cd1e76]'>
+                    <div className='icon_box mt-[20px] w-[100%] display-flex flex justify-between'>
+                      <div className="icon px-2.5 py-2.5 rounded-full border border-[#cd1e76] cursor-pointer transition duration-500 text-[#cd1e76] hover:text-white hover:bg-[#cd1e76]">
                         <BiLogoTwitter />
                       </div>
-                      <div className='icon px-[10px] py-[10px] rounded-full border border-[#cd1e76] mb-[30px] cursor-pointer transition duration-500 text-[#cd1e76]'>
+                      <div className="icon px-2.5 py-2.5 rounded-full border border-[#cd1e76] cursor-pointer transition duration-500 text-[#cd1e76] hover:text-white hover:bg-[#cd1e76]">
                         <BiLogoLinkedin />
                       </div>
-                      <div className='icon px-[10px] py-[10px] rounded-full border border-[#cd1e76] mb-[30px] cursor-pointer transition duration-500 text-[#cd1e76]'>
+                      <div className="icon px-2.5 py-2.5 rounded-full border border-[#cd1e76] cursor-pointer transition duration-500 text-[#cd1e76] hover:text-white hover:bg-[#cd1e76]">
                         <BiLogoGithub />
                       </div>
-                      <div className='icon px-[10px] py-[10px] rounded-full border border-[#cd1e76] mb-[30px] cursor-pointer transition duration-500 text-[#cd1e76]'>
+                      <div className="icon px-2.5 py-2.5 rounded-full border border-[#cd1e76] cursor-pointer transition duration-500 text-[#cd1e76] hover:text-white hover:bg-[#cd1e76]">
                         <BiLogoInstagram />
                       </div>
-                      <div className='icon px-[10px] py-[10px] rounded-full border border-[#cd1e76] mb-[30px] cursor-pointer transition duration-500 text-[#cd1e76]'>
+                      <div className="icon px-2.5 py-2.5 rounded-full border border-[#cd1e76] cursor-pointer transition duration-500 text-[#cd1e76] hover:text-white hover:bg-[#cd1e76]">
                         <BiLogoFacebook />
                       </div>
                     </div>
