@@ -74,6 +74,7 @@ const Home = () => {
                     </div>
                   ))}
                 </div>
+                <button>Show More</button>
               </div>
             </div>
             <div className='right_box font-semibold p-[10px] px-[20px] w-[24%] flex flex-col'>
