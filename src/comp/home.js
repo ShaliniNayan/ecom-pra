@@ -74,7 +74,7 @@ const Home = () => {
                     </div>
                   ))}
                 </div>
-                <button className='ml-[45%] px-[10px] py-[30px] mt-[20px] bg-none outline-none border-none color-[#232323]  '>Show More</button>
+                <button className="ml-[45%] px-4 py-3 mt-5 bg-[#cd1e76] text-white font-semibold border-none outline-none cursor-pointer rounded-md transition duration-300 hover:bg-[#a91a5e]">Show More</button>
               </div>
             </div>
             <div className='right_box font-semibold p-[10px] px-[20px] w-[24%] flex flex-col'>
