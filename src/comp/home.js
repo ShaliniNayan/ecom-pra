@@ -134,6 +134,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className='banners'></div>
       </div>
     </>
   );
