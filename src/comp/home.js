@@ -134,7 +134,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='banners'></div>
+        <div className='banners'>
+          <div className='container'></div>
+        </div>
       </div>
     </>
   );
