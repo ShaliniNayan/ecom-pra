@@ -137,7 +137,9 @@ const Home = () => {
         <div className='banners'>
           <div className='container'>
             <div className='left_box'>
-              <div className='box'></div>
+              <div className='box'>
+                <img src='image/Multi-Banner-1.avif' alt='banner'></img>
+              </div>
             </div>
           </div>
         </div>
