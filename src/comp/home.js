@@ -135,7 +135,9 @@ const Home = () => {
           </div>
         </div>
         <div className='banners'>
-          <div className='container'></div>
+          <div className='container'>
+            <div className='left_box'></div>
+          </div>
         </div>
       </div>
     </>
