@@ -136,7 +136,9 @@ const Home = () => {
         </div>
         <div className='banners'>
           <div className='container'>
-            <div className='left_box'></div>
+            <div className='left_box'>
+              <div className='box'></div>
+            </div>
           </div>
         </div>
       </div>
