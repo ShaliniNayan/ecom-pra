@@ -134,7 +134,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='banners'>
+        <div className='banners px-[20px] py-[30px] display-flex'>
           <div className='container'>
             <div className='left_box'>
               <div className='box'>
