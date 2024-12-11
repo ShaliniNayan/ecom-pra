@@ -137,10 +137,10 @@ const Home = () => {
         <div className='banners px-[20px] py-[30px] display-flex'>
           <div className='container max-w-[100%] display-flex'>
             <div className='left_box w-[24%]'>
-              <div className='box'>
+              <div className='box mt-[10px]'>
                 <img src='image/Multi-Banner-1.avif' alt='banner'></img>
               </div>
-              <div className='box'>
+              <div className='box mt-[10px]'>
                 <img src='image/Multi-Banner-2.avif' alt='banner'></img>
               </div>
             </div>
