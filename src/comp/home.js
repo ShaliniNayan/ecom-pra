@@ -134,8 +134,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='banners px-[20px] py-[30px] display-flex'>
-          <div className='container max-w-[100%] display-flex'>
+        <div className='banners px-[20px] py-[30px] flex'>
+          <div className='container max-w-[100%] flex'>
             <div className='left_box w-[24%]'>
               <div className='box mt-[10px]'>
                 <img src='image/Multi-Banner-1.avif' alt='banner'></img>
@@ -145,7 +145,7 @@ const Home = () => {
               </div>
             </div>
             <div className='right_box w-[75%]'>
-              <div className='top max-w-[100%] flex justify-between'>
+              <div className='top max-w-[95%] flex justify-between mt-[10px]'>
                 <img src='image/Multi-Banner-3.webp' alt=''></img>
                 <img src='image/Multi-Banner-4.avif' alt=''></img>
               </div>
