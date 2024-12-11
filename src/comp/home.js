@@ -140,6 +140,9 @@ const Home = () => {
               <div className='box'>
                 <img src='image/Multi-Banner-1.avif' alt='banner'></img>
               </div>
+              <div className='box'>
+                <img src='image/Multi-Banner-2.avif' alt='banner'></img>
+              </div>
             </div>
           </div>
         </div>
