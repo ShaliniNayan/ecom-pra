@@ -144,6 +144,12 @@ const Home = () => {
                 <img src='image/Multi-Banner-2.avif' alt='banner'></img>
               </div>
             </div>
+            <div className='right_box'>
+              <div className='top'>
+                <img src='image/Multi-Banner-3.webp' alt=''></img>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
