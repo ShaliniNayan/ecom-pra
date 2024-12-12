@@ -146,7 +146,7 @@ const Home = () => {
             </div>
             <div className='right_box w-[75%]'>
               <div className='top max-w-[100%] flex justify-between mt-[10px]'>
-                <img src='image/Multi-Banner-3.webp' alt=''></img>
+                <img src='image/Multi-Banner-3.webp' alt='' className='p-[10px]'></img>
                 <img src='image/Multi-Banner-4.avif' alt=''></img>
               </div>
             </div>
