@@ -149,8 +149,8 @@ const Home = () => {
                 <img src='image/Multi-Banner-3.webp' alt='' className='p-[10px]'></img>
                 <img src='image/Multi-Banner-4.avif' alt=''></img>
               </div>
-              <div className='bottom max-w-[100%] flex justify-between mt-[10px]'>
-                <img src='image/Multi-Banner-5.webp' alt=''></img>
+              <div className='bottom max-w-[100%] flex mt-[10px]'>
+                <img src='image/Multi-Banner-5.webp' className='w-[100%] object-cover' alt=''></img>
               </div>
             </div>
           </div>
