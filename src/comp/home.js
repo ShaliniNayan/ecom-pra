@@ -155,6 +155,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="product_type">
+          <div className="container"></div>
+        </div>
       </div>
     </>
   );
