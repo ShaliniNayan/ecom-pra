@@ -173,7 +173,11 @@ const Home = () => {
           </div>
         </div>
         <div className="product_type">
-          <div className="container"></div>
+          <div className="container">
+            <div className="header">
+              <h2>New Product</h2>
+            </div>
+          </div>
         </div>
       </div>
     </>
