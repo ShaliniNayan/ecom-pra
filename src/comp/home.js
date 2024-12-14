@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './nav.css';
 import { Link } from 'react-router-dom';
 import Homeproduct from './home_product';
@@ -6,16 +6,33 @@ import { AiFillEye, AiFillHeart } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoGithub, BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi';
 
 const Home = () => {
+  //Product Category
+  const [newProduct, setNewProduct] = useState('');
+  //Trending Product
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
 
+  // Filter of Trending Product
   const filtercate = (x) => {
     const filteredProducts = Homeproduct.filter((curElm) => curElm.type === x);
     setTrendingProduct(filteredProducts);
   };
   
+  // All Trending Product
   const allTrendingProduct = () => {
     setTrendingProduct(Homeproduct);
   };
+
+  // Product Type
+  useEffect(() => {
+    productcategory();
+  })
+  const productcategory = () => {
+    const newCategory = Homeproduct.filter((x) => 
+    {
+      return x.type === 'new';
+    })
+    setNewProduct(newCategory);
+  }
 
   return (
     <>
