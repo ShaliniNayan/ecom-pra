@@ -185,7 +185,9 @@ const Home = () => {
               newProduct.map((curElm) => {
                 return(
                   <>
-                    <div className="product_box"></div> 
+                    <div className="product_box">
+                      <div className="img_box"></div>
+                    </div> 
                   </>
                 )
                  
