@@ -186,7 +186,9 @@ const Home = () => {
                 return(
                   <>
                     <div className="product_box">
-                      <div className="img_box"></div>
+                      <div className="img_box">
+                        <img src={curElm.image} alt="" />
+                      </div>
                     </div> 
                   </>
                 )
