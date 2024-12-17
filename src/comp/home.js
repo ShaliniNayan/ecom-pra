@@ -7,7 +7,7 @@ import { BiLogoFacebook, BiLogoGithub, BiLogoInstagram, BiLogoLinkedin, BiLogoTw
 
 const Home = () => {
   //Product Category
-  const [newProduct, setNewProduct] = useState('');
+  const [newProduct, setNewProduct] = useState([]);
   //Trending Product
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
 
@@ -178,14 +178,12 @@ const Home = () => {
             <div className="header">
               <h2>New Product</h2>
             </div>
-            <div className="product_box"></div><div className="header">
-              <h2>New Product</h2>
-            </div>
+            
             {
               newProduct.map((curElm) => {
                 return(
                   <>
-                    <div className="product_box">
+                    <div className="productbox">
                       <div className="img_box">
                         <img src={curElm.image} alt="" />
                       </div>
