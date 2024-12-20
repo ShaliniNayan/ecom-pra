@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './nav.css';
 import { Link } from 'react-router-dom';
 import Homeproduct from './home_product';
-import { AiFillEye, AiFillHeart } from "react-icons/ai";
+import { AiFillEye, AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoGithub, BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi';
 
 const Home = () => {
@@ -186,6 +186,15 @@ const Home = () => {
                     <div className="productbox">
                       <div className="img_box">
                         <img src={curElm.image} alt="" />
+                      </div>
+                      <div className="detail">
+                        <h3>{curElm.Name}</h3>
+                        <p>₹{curElm.price}</p>
+                        <div className="icon">
+                          <button><AiFillEye /></button>
+                          <button><AiFillHeart /></button>
+                          <button><AiOutlineShoppingCart /></button>
+                        </div>
                       </div>
                     </div> 
                   </>
