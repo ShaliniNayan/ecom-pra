@@ -8,6 +8,8 @@ import { BiLogoFacebook, BiLogoGithub, BiLogoInstagram, BiLogoLinkedin, BiLogoTw
 const Home = () => {
   //Product Category
   const [newProduct, setNewProduct] = useState([]);
+  const [featuredProduct, setFeaturedProduct] = useState([]);
+  const [topProduct, setTopProduct] = useState([]);
   //Trending Product
   const [trendingProduct, setTrendingProduct] = useState(Homeproduct);
 
@@ -26,6 +28,8 @@ const Home = () => {
   useEffect(() => {
     productcategory();
   })
+  
+  //New Product
   const productcategory = () => {
     const newCategory = Homeproduct.filter((x) => 
     {
