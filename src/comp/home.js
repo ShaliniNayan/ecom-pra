@@ -173,7 +173,7 @@ const Home = () => {
           </div>
         </div>
         <div className="product_type px-[20px] py-[30px] w-[100%]">
-          <div className="container">
+          <div className="container flex w-[100%] space-between">
             <div className="box">
             <div className="header">
               <h2>New Product</h2>
