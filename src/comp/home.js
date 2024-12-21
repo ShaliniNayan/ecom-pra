@@ -172,7 +172,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="product_type">
+        <div className="product_type px-[20px] py-[30px] w-[100%]">
           <div className="container">
             <div className="box">
             <div className="header">
