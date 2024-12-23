@@ -27,7 +27,7 @@ const Home = () => {
   // Product Type
   useEffect(() => {
     productcategory();
-  })
+  }, []);
   
   //New Product
   const productcategory = () => {
@@ -189,7 +189,7 @@ const Home = () => {
           </div>
         </div>
         <div className="product_type px-[20px] py-[30px] w-[100%]">
-          <div className="container flex w-[100%] space-between">
+          <div className="container flex flex-wrap w-[100%] justify-between">
             <div className="box w-[400px] h-[496px] border-3 border-[#f6f7f8] p-[10px] overflow-hidden">
               <div className="header">
                 <h2>New Product</h2>
