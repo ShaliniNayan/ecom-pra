@@ -42,6 +42,12 @@ const Home = () => {
       return x.type === 'featured';
     })
     setFeaturedProduct(featuredCategory);
+
+    // Top Product
+    const topCategory = Homeproduct.filter((x) => {
+      return x.type === 'top';
+    })
+    setTopProduct(topCategory);
   }
 
   return (
@@ -222,6 +228,36 @@ const Home = () => {
             
             {
               featuredProduct.map((curElm) => {
+                return(
+                  <>
+                    <div className="productbox">
+                      <div className="img_box">
+                         <img src={curElm.image} alt="" />
+                      </div>
+                      <div className="detail">
+                        <h3>{curElm.Name}</h3>
+                        <p>₹{curElm.price}</p>
+                        <div className="icon">
+                          <button><AiFillEye /></button>
+                          <button><AiFillHeart /></button>
+                          <button><AiOutlineShoppingCart /></button>
+                        </div>
+                      </div>
+                    </div> 
+                  </>
+                )
+                  
+              })
+            }
+            
+          </div>
+          <div className="box w-[400px] h-[496px] border-3 border-[#f6f7f8] p-[10px] overflow-hidden">
+            <div className="header">
+             <h2>Top Product</h2>
+            </div>
+            
+            {
+              topProduct.map((curElm) => {
                 return(
                   <>
                     <div className="productbox">
