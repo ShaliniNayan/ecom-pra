@@ -189,10 +189,10 @@ const Home = () => {
           </div>
         </div>
         <div className="product_type px-[20px] py-[30px] w-[100%]">
-          <div className="container flex flex-wrap justify-between gap-5">
+          <div className="container flex flex-wrap justify-between gap-5 bg-[#f6f7f8]">
             {/* New Product Box */}
             <div className="box flex-grow basis-1/3 max-w-[360px] h-[490px] border-3 border-[#f6f7f8]  overflow-hidden">
-              <div className="header w-[100%] h-[50px] background-[#f6f6f6] px-[10px] py-[10px]">
+              <div className="header w-[100%] h-[50px] bg-[#f6f6f6] px-[10px] py-[10px]">
                 <h2 className="text-lg font-bold">New Product</h2>
               </div>
               {newProduct.map((curElm) => (
