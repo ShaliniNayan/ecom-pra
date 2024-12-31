@@ -196,9 +196,9 @@ const Home = () => {
                 <h2 className="text-[#232323] text-[16px] uppercase font-semibold">New Product</h2>
               </div>
               {newProduct.map((curElm) => (
-                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8]">
+                <div key={curElm.id} className="productbox w-[100%] h-[110px] px-[10px] py-[10px] border border-[#f6f7f8] flex">
                   <div className="img_box ">
-                    <img src={curElm.image} alt="" />
+                    <img className="w-[100px] h-[100px] object-cover" src={curElm.image} alt="" />
                   </div>
                   <div className="detail">
                     <h3>{curElm.Name}</h3>
@@ -219,9 +219,9 @@ const Home = () => {
                 <h2 className="text-[#232323] text-[16px] uppercase font-semibold">Featured Product</h2>
               </div>
               {featuredProduct.map((curElm) => (
-                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8]">
+                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8] flex">
                   <div className="img_box">
-                    <img src={curElm.image} alt="" />
+                    <img className="w-[100px] h-[100px] object-cover" src={curElm.image} alt="" />
                   </div>
                   <div className="detail">
                     <h3>{curElm.Name}</h3>
@@ -242,9 +242,9 @@ const Home = () => {
                 <h2 className="text-[#232323] text-[16px] uppercase font-semibold">Top Product</h2>
               </div>
               {topProduct.map((curElm) => (
-                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8]">
+                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8] flex">
                   <div className="img_box">
-                    <img src={curElm.image} alt="" />
+                    <img className="w-[100px] h-[100px] object-cover" src={curElm.image} alt="" />
                   </div>
                   <div className="detail">
                     <h3>{curElm.Name}</h3>
