@@ -200,7 +200,7 @@ const Home = () => {
                   <div className="img_box ">
                     <img className="w-[100px] h-[100px] object-cover" src={curElm.image} alt="" />
                   </div>
-                  <div className="detail">
+                  <div className="detail ml-[30px]">
                     <h3>{curElm.Name}</h3>
                     <p>₹{curElm.price}</p>
                     <div className="icon">
@@ -223,7 +223,7 @@ const Home = () => {
                   <div className="img_box">
                     <img className="w-[100px] h-[100px] object-cover" src={curElm.image} alt="" />
                   </div>
-                  <div className="detail">
+                  <div className="detail ml-[30px]">
                     <h3>{curElm.Name}</h3>
                     <p>₹{curElm.price}</p>
                     <div className="icon">
@@ -246,7 +246,7 @@ const Home = () => {
                   <div className="img_box">
                     <img className="w-[100px] h-[100px] object-cover" src={curElm.image} alt="" />
                   </div>
-                  <div className="detail">
+                  <div className="detail ml-[30px]">
                     <h3>{curElm.Name}</h3>
                     <p>₹{curElm.price}</p>
                     <div className="icon">
