@@ -196,8 +196,8 @@ const Home = () => {
                 <h2 className="text-[#232323] text-[16px] uppercase font-semibold">New Product</h2>
               </div>
               {newProduct.map((curElm) => (
-                <div key={curElm.id} className="productbox w-[100%] px-[10px] py-[10px] border border-[#f6f7f8]">
-                  <div className="img_box">
+                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8]">
+                  <div className="img_box ">
                     <img src={curElm.image} alt="" />
                   </div>
                   <div className="detail">
@@ -219,7 +219,7 @@ const Home = () => {
                 <h2 className="text-[#232323] text-[16px] uppercase font-semibold">Featured Product</h2>
               </div>
               {featuredProduct.map((curElm) => (
-                <div key={curElm.id} className="productbox w-[100%] px-[10px] py-[10px] border border-[#f6f7f8]">
+                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8]">
                   <div className="img_box">
                     <img src={curElm.image} alt="" />
                   </div>
@@ -242,7 +242,7 @@ const Home = () => {
                 <h2 className="text-[#232323] text-[16px] uppercase font-semibold">Top Product</h2>
               </div>
               {topProduct.map((curElm) => (
-                <div key={curElm.id} className="productbox w-[100%] px-[10px] py-[10px] border border-[#f6f7f8]">
+                <div key={curElm.id} className="productbox w-[100%] h-[120px] px-[10px] py-[10px] border border-[#f6f7f8]">
                   <div className="img_box">
                     <img src={curElm.image} alt="" />
                   </div>
