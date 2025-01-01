@@ -204,9 +204,9 @@ const Home = () => {
                     <h3 className="text-sm text-gray-500 uppercase tracking-wider">{curElm.Name}</h3>
                     <p className="mt-1 text-[#cd1e76] tracking-wider font-semibold text-sm">₹{curElm.price}</p>
                     <div className="icon mt-2 flex">
-                      <button><AiFillEye /></button>
-                      <button><AiFillHeart /></button>
-                      <button><AiOutlineShoppingCart /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillEye /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillHeart /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
                     </div>
                   </div>
                 </div>
@@ -227,9 +227,9 @@ const Home = () => {
                     <h3 className="text-sm text-gray-500 uppercase tracking-wider">{curElm.Name}</h3>
                     <p className="mt-1 text-[#cd1e76] tracking-wider font-semibold text-sm">₹{curElm.price}</p>
                     <div className="icon mt-2 flex">
-                      <button><AiFillEye /></button>
-                      <button><AiFillHeart /></button>
-                      <button><AiOutlineShoppingCart /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillEye /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillHeart /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
                     </div>
                   </div>
                 </div>
@@ -250,9 +250,9 @@ const Home = () => {
                     <h3 className="text-sm text-gray-500 uppercase tracking-wider">{curElm.Name}</h3>
                     <p className="mt-1 text-[#cd1e76] tracking-wider font-semibold text-sm">₹{curElm.price}</p>
                     <div className="icon mt-2 flex">
-                      <button><AiFillEye /></button>
-                      <button><AiFillHeart /></button>
-                      <button><AiOutlineShoppingCart /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillEye /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillHeart /></button>
+                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
                     </div>
                   </div>
                 </div>
