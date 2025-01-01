@@ -202,7 +202,7 @@ const Home = () => {
                   </div>
                   <div className="detail ml-[30px]">
                     <h3 className="text-sm text-gray-500 uppercase tracking-wider">{curElm.Name}</h3>
-                    <p>₹{curElm.price}</p>
+                    <p className="mt-1 text-[#cd1e76] tracking-wider font-semibold text-sm">₹{curElm.price}</p>
                     <div className="icon">
                       <button><AiFillEye /></button>
                       <button><AiFillHeart /></button>
@@ -225,7 +225,7 @@ const Home = () => {
                   </div>
                   <div className="detail ml-[30px]">
                     <h3 className="text-sm text-gray-500 uppercase tracking-wider">{curElm.Name}</h3>
-                    <p>₹{curElm.price}</p>
+                    <p className="mt-1 text-[#cd1e76] tracking-wider font-semibold text-sm">₹{curElm.price}</p>
                     <div className="icon">
                       <button><AiFillEye /></button>
                       <button><AiFillHeart /></button>
@@ -248,7 +248,7 @@ const Home = () => {
                   </div>
                   <div className="detail ml-[30px]">
                     <h3 className="text-sm text-gray-500 uppercase tracking-wider">{curElm.Name}</h3>
-                    <p>₹{curElm.price}</p>
+                    <p className="mt-1 text-[#cd1e76] tracking-wider font-semibold text-sm">₹{curElm.price}</p>
                     <div className="icon">
                       <button><AiFillEye /></button>
                       <button><AiFillHeart /></button>
