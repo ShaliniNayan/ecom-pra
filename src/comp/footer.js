@@ -1,5 +1,6 @@
 import React from 'react'
 import './nav.css'
+import { FaPiggyBank } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
 				<div className="left-box">
 					<div className='box'>
 						<div className="icon_box">
-							
+							<FaPiggyBank />
 						</div>
 					</div>
 				</div>
