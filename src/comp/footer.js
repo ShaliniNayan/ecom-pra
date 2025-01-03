@@ -12,6 +12,9 @@ const Footer = () => {
 						<div className="icon_box">
 							<FaPiggyBank />
 						</div>
+						<div classNmae="detail">
+							
+						</div>
 					</div>
 				</div>
 			</div>
