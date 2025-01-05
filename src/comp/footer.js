@@ -17,7 +17,7 @@ const Footer = () => {
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 					</div>
-					<div className='box'>
+					<div className='box flex'>
 						<div className="icon_box">
 							<FaShippingFast />
 						</div>
@@ -26,7 +26,7 @@ const Footer = () => {
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 					</div>
-					<div className='box'>
+					<div className='box flex'>
 						<div className="icon_box">
 							<FaHeadphonesAlt />
 						</div>
@@ -35,7 +35,7 @@ const Footer = () => {
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 					</div>
-					<div className='box'>
+					<div className='box flex'>
 						<div className="icon_box">
 							<FaWallet />
 						</div>
