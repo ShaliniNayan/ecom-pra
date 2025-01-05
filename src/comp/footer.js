@@ -6,7 +6,7 @@ const Footer = () => {
   return (
 	<>
 		<div className="footer w-full p-8 bg-[#f6f7f8]">
-			<div className='container'>
+			<div className='container flex max-w-full'>
 				<div className="left-box">
 					<div className='box'>
 						<div className="icon_box">
