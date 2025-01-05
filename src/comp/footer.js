@@ -6,8 +6,8 @@ const Footer = () => {
   return (
 	<>
 		<div className="footer w-full p-8 bg-[#f6f7f8]">
-			<div className='container flex max-w-full'>
-				<div className="left-box">
+			<div className='container flex font-semibold max-w-full'>
+				<div className="left-box w-1/3 p-5 border-r-2 border-[#b8b7b7]">
 					<div className='box'>
 						<div className="icon_box">
 							<FaPiggyBank />
