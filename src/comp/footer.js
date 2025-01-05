@@ -5,7 +5,7 @@ import {  FaHeadphonesAlt, FaPiggyBank, FaShippingFast, FaWallet } from 'react-i
 const Footer = () => {
   return (
 	<>
-		<div className="footer">
+		<div className="footer w-full p-8 bg-[#f6f7f8]">
 			<div className='container'>
 				<div className="left-box">
 					<div className='box'>
