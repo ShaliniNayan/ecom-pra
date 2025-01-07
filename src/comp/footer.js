@@ -14,7 +14,7 @@ const Footer = () => {
 						</div>
 						<div className="detail ml-[10px]">
 							<h3 className="uppercase text-base text-[#cd1e76] font-semibold tracking-wider">Great value for your money</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p className="text-sm text-[#232323]">Lorem ipsum dolor sit elit.</p>
 						</div>
 					</div>
 					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
@@ -23,7 +23,7 @@ const Footer = () => {
 						</div>
 						<div className="detail ml-[10px]">
 							<h3 className="uppercase text-base text-[#cd1e76] font-semibold tracking-wider">Free shipping </h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p className="text-sm text-[#232323]">Lorem ipsum dolor sit elit.</p>
 						</div>
 					</div>
 					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
@@ -32,7 +32,7 @@ const Footer = () => {
 						</div>
 						<div className="detail ml-[10px]">
 							<h3 className="uppercase text-base text-[#cd1e76] font-semibold tracking-wider">24X7 Support</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p className="text-sm text-[#232323]">Lorem ipsum dolor sit elit.</p>
 						</div>
 					</div>
 					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
@@ -41,7 +41,7 @@ const Footer = () => {
 						</div>
 						<div className="detail ml-[10px]">
 							<h3 className="uppercase text-base text-[#cd1e76] font-semibold tracking-wider">Money back</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p className="text-sm text-[#232323]">Lorem ipsum dolor sit elit.</p>
 						</div>
 					</div>
 					
