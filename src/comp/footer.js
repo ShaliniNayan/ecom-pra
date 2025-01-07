@@ -8,8 +8,8 @@ const Footer = () => {
 		<div className="footer w-full p-8 bg-[#f6f7f8]">
 			<div className='container flex font-semibold max-w-full'>
 				<div className="left-box w-1/3 p-5 border-r-2 border-[#b8b7b7]">
-					<div className='box flex px-[10px] py-[20px] mt-4 gap-4'>
-						<div className="icon_box">
+					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
+						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaPiggyBank />
 						</div>
 						<div className="detail">
@@ -17,8 +17,8 @@ const Footer = () => {
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 					</div>
-					<div className='box flex items-center gap-4'>
-						<div className="icon_box">
+					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
+						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaShippingFast />
 						</div>
 						<div className="detail">
@@ -26,8 +26,8 @@ const Footer = () => {
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 					</div>
-					<div className='box flex items-center gap-4'>
-						<div className="icon_box">
+					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
+						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaHeadphonesAlt />
 						</div>
 						<div className="detail">
@@ -35,8 +35,8 @@ const Footer = () => {
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
 					</div>
-					<div className='box flex items-center gap-4'>
-						<div className="icon_box">
+					<div className='box flex px-[10px] py-[20px] mt-[15px] gap-4'>
+						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaWallet />
 						</div>
 						<div className="detail">
