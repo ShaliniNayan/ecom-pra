@@ -12,7 +12,7 @@ const Footer = () => {
 						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaPiggyBank />
 						</div>
-						<div className="detail">
+						<div className="detail ml-[10px]">
 							<h3>Great value for your money</h3>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
@@ -21,7 +21,7 @@ const Footer = () => {
 						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaShippingFast />
 						</div>
-						<div className="detail">
+						<div className="detail ml-[10px]">
 							<h3>Free shipping </h3>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
@@ -30,7 +30,7 @@ const Footer = () => {
 						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaHeadphonesAlt />
 						</div>
-						<div className="detail">
+						<div className="detail ml-[10px]">
 							<h3>24X7 Support</h3>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
@@ -39,7 +39,7 @@ const Footer = () => {
 						<div className="icon_box text-[26px] text-[#cd1e76]">
 							<FaWallet />
 						</div>
-						<div className="detail">
+						<div className="detail ml-[10px]">
 							<h3>Money back</h3>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						</div>
