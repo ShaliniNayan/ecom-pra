@@ -13,7 +13,7 @@ const Footer = () => {
 							<FaPiggyBank />
 						</div>
 						<div className="detail ml-[10px]">
-							<h3 className="uppercase text-base text-[#cd1e76] font-semibold tracking-wider">Great value for your money</h3>
+							<h3 className="uppercase text-base text-[#cd1e76] font-semibold tracking-wider">Great price</h3>
 							<p className="text-sm text-[#232323]">Lorem ipsum dolor sit elit.</p>
 						</div>
 					</div>
