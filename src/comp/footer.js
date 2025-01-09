@@ -47,8 +47,8 @@ const Footer = () => {
 				</div>
 
 				<div className="right-box w-[69%] p-5">
-					<div className="header max-w-full align-center">
-						<img src="image/logo.webp" alt="logo" className="object-cover" />
+					<div className="header max-w-full items-center">
+						<img src="image/logo.webp" alt="logo" className="ml-[40%]" />
 						<p className="">Lorem ipsum dolor sit elit.</p>
 					</div>
 				</div>
