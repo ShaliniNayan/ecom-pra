@@ -51,6 +51,9 @@ const Footer = () => {
 						<img src="image/logo.webp" alt="logo" className="ml-[40%]" />
 						<p className="mt-4 text-sm text-center font-semibold text-gray-500">Lorem ipsum dolor sit elit.</p>
 					</div>
+					<div className="bottom">
+						
+					</div>
 				</div>
 			</div>
 		</div>
