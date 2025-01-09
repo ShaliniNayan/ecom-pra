@@ -48,7 +48,7 @@ const Footer = () => {
 
 				<div className="right-box">
 					<div className="header">
-						
+						<img src="image/logo.webp" alt="logo" className="object-cover" />
 					</div>
 				</div>
 			</div>
