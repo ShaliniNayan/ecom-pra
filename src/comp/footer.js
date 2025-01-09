@@ -44,7 +44,12 @@ const Footer = () => {
 							<p className="text-sm text-[#232323]">Lorem ipsum dolor sit elit.</p>
 						</div>
 					</div>
-					
+				</div>
+
+				<div className="right-box">
+					<div className="header">
+						
+					</div>
 				</div>
 			</div>
 		</div>
