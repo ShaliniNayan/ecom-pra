@@ -49,7 +49,7 @@ const Footer = () => {
 				<div className="right-box w-[69%] p-5">
 					<div className="header max-w-full items-center">
 						<img src="image/logo.webp" alt="logo" className="ml-[40%]" />
-						<p className="">Lorem ipsum dolor sit elit.</p>
+						<p className="mt-4 text-sm text-center font-semibold text-gray-500">Lorem ipsum dolor sit elit.</p>
 					</div>
 				</div>
 			</div>
