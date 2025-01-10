@@ -54,6 +54,12 @@ const Footer = () => {
 					<div className="bottom">
 						<div className="box">
 							<h3>Your Account</h3>
+							<ul>
+								<li>About Us</li>
+								<li>Account</li>
+								<li>Payment</li>
+								<li>Sales</li>
+							</ul>
 						</div>
 					</div>
 				</div>
