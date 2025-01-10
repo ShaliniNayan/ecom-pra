@@ -52,7 +52,9 @@ const Footer = () => {
 						<p className="mt-4 text-sm text-center font-semibold text-gray-500">Lorem ipsum dolor sit elit.</p>
 					</div>
 					<div className="bottom">
-						
+						<div className="box">
+							
+						</div>
 					</div>
 				</div>
 			</div>
