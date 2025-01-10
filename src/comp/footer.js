@@ -53,7 +53,7 @@ const Footer = () => {
 					</div>
 					<div className="bottom">
 						<div className="box">
-							
+							<h3>Your Account</h3>
 						</div>
 					</div>
 				</div>
