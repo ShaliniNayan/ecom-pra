@@ -61,6 +61,15 @@ const Footer = () => {
 								<li>Sales</li>
 							</ul>
 						</div>
+						<div className="box">
+							<h3>Products</h3>
+							<ul>
+								<li>Delivery</li>
+								<li>Track Order</li>
+								<li>New Products</li>
+								<li>Old Products</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
