@@ -70,6 +70,14 @@ const Footer = () => {
 								<li>Old Products</li>
 							</ul>
 						</div>
+						<div className="box">
+							<h3>Contact Us</h3>
+							<ul>
+								<li>123, Business Lane</li>
+								<li>+(91) 1234567890</li>
+								<li>info@domain.com</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
