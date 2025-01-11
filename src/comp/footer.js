@@ -53,29 +53,29 @@ const Footer = () => {
 					</div>
 					<div className="bottom flex mt-[20px] w-full justify-between px-[20px] py-[20px]">
 						<div className="box px-[10px] py-[20px]">
-							<h3 className="font-bold uppercase text-[#232323] text-sm tracking-wider">Your Account</h3>
+							<h3 className="font-semibold uppercase text-[#232323] text-sm tracking-wider">Your Account</h3>
 							<ul className="mt-[10px]">
-								<li>About Us</li>
-								<li>Account</li>
-								<li>Payment</li>
-								<li>Sales</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">About Us</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Account</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Payment</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Sales</li>
 							</ul>
 						</div>
 						<div className="box px-[10px] py-[20px]">
-							<h3 className="font-bold uppercase text-[#232323] text-sm tracking-wider">Products</h3>
+							<h3 className="font-semibold uppercase text-[#232323] text-sm tracking-wider">Products</h3>
 							<ul className="mt-[10px]">
-								<li>Delivery</li>
-								<li>Track Order</li>
-								<li>New Products</li>
-								<li>Old Products</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Delivery</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Track Order</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">New Products</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Old Products</li>
 							</ul>
 						</div>
 						<div className="box px-[10px] py-[20px]">
-							<h3 className="font-bold uppercase text-[#232323] text-sm tracking-wider">Contact Us</h3>
+							<h3 className="font-semibold uppercase text-[#232323] text-sm tracking-wider">Contact Us</h3>
 							<ul className="mt-[10px]">
-								<li>123, Business Lane</li>
-								<li>+(91) 1234567890</li>
-								<li>info@domain.com</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">123, Business Lane</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">+(91) 1234567890</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">info@domain.com</li>
 							</ul>
 						</div>
 					</div>
