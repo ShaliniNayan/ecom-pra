@@ -53,7 +53,7 @@ const Footer = () => {
 					</div>
 					<div className="bottom flex mt-[20px] w-full justify-between px-[20px] py-[20px]">
 						<div className="box px-[10px] py-[20px]">
-							<h3 className="font-bold">Your Account</h3>
+							<h3 className="font-bold uppercase text-[#232323] text-sm tracking-wider">Your Account</h3>
 							<ul>
 								<li>About Us</li>
 								<li>Account</li>
@@ -62,7 +62,7 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="box px-[10px] py-[20px]">
-							<h3 className="font-bold">Products</h3>
+							<h3 className="font-bold uppercase text-[#232323] text-sm tracking-wider">Products</h3>
 							<ul>
 								<li>Delivery</li>
 								<li>Track Order</li>
@@ -71,7 +71,7 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="box px-[10px] py-[20px]">
-							<h3 className="font-bold">Contact Us</h3>
+							<h3 className="font-bold uppercase text-[#232323] text-sm tracking-wider">Contact Us</h3>
 							<ul>
 								<li>123, Business Lane</li>
 								<li>+(91) 1234567890</li>
