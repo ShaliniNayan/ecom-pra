@@ -51,7 +51,7 @@ const Footer = () => {
 						<img src="image/logo.webp" alt="logo" className="ml-[40%]" />
 						<p className="mt-4 text-sm text-center font-semibold text-gray-500">Lorem ipsum dolor sit elit.</p>
 					</div>
-					<div className="bottom flex mt-[20px] w-full justify-between">
+					<div className="bottom flex mt-[20px] w-full justify-between px-[20px] py-[20px]">
 						<div className="box">
 							<h3 className="font-bold">Your Account</h3>
 							<ul>
