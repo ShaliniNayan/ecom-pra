@@ -55,27 +55,27 @@ const Footer = () => {
 						<div className="box px-[10px] py-[20px]">
 							<h3 className="font-semibold uppercase text-[#232323] text-sm tracking-wider">Your Account</h3>
 							<ul className="mt-[10px]">
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">About Us</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Account</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Payment</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Sales</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">About Us</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">Account</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">Payment</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">Sales</li>
 							</ul>
 						</div>
 						<div className="box px-[10px] py-[20px]">
 							<h3 className="font-semibold uppercase text-[#232323] text-sm tracking-wider">Products</h3>
 							<ul className="mt-[10px]">
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Delivery</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Track Order</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">New Products</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">Old Products</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">Delivery</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">Track Order</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">New Products</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">Old Products</li>
 							</ul>
 						</div>
 						<div className="box px-[10px] py-[20px]">
 							<h3 className="font-semibold uppercase text-[#232323] text-sm tracking-wider">Contact Us</h3>
 							<ul className="mt-[10px]">
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">123, Business Lane</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">+(91) 1234567890</li>
-								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs">info@domain.com</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">123, Business Lane</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">+(91) 1234567890</li>
+								<li className="list-none mt-1 text-[#8a8a8a] capitalize tracking-wider text-xs cursor-pointer transition duration-500 hover:text-[#cd1e76]">info@domain.com</li>
 							</ul>
 						</div>
 					</div>
