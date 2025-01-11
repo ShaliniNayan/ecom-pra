@@ -51,9 +51,9 @@ const Footer = () => {
 						<img src="image/logo.webp" alt="logo" className="ml-[40%]" />
 						<p className="mt-4 text-sm text-center font-semibold text-gray-500">Lorem ipsum dolor sit elit.</p>
 					</div>
-					<div className="bottom">
+					<div className="bottom flex mt-[20px] w-full justify-between">
 						<div className="box">
-							<h3>Your Account</h3>
+							<h3 className="font-bold">Your Account</h3>
 							<ul>
 								<li>About Us</li>
 								<li>Account</li>
@@ -62,7 +62,7 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="box">
-							<h3>Products</h3>
+							<h3 className="font-bold">Products</h3>
 							<ul>
 								<li>Delivery</li>
 								<li>Track Order</li>
@@ -71,7 +71,7 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="box">
-							<h3>Contact Us</h3>
+							<h3 className="font-bold">Contact Us</h3>
 							<ul>
 								<li>123, Business Lane</li>
 								<li>+(91) 1234567890</li>
