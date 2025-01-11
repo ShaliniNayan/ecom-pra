@@ -61,7 +61,7 @@ const Footer = () => {
 								<li>Sales</li>
 							</ul>
 						</div>
-						<div className="box">
+						<div className="box px-[10px] py-[20px]">
 							<h3 className="font-bold">Products</h3>
 							<ul>
 								<li>Delivery</li>
@@ -70,7 +70,7 @@ const Footer = () => {
 								<li>Old Products</li>
 							</ul>
 						</div>
-						<div className="box">
+						<div className="box px-[10px] py-[20px]">
 							<h3 className="font-bold">Contact Us</h3>
 							<ul>
 								<li>123, Business Lane</li>
