@@ -52,7 +52,7 @@ const Footer = () => {
 						<p className="mt-4 text-sm text-center font-semibold text-gray-500">Lorem ipsum dolor sit elit.</p>
 					</div>
 					<div className="bottom flex mt-[20px] w-full justify-between px-[20px] py-[20px]">
-						<div className="box">
+						<div className="box px-[10px] py-[20px]">
 							<h3 className="font-bold">Your Account</h3>
 							<ul>
 								<li>About Us</li>
