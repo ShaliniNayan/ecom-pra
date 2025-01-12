@@ -4,7 +4,7 @@ import './nav.css';
 const Shop = () => {
     return (
         <>
-            <div className="shop">
+            <div className="shop w-[100px] px-8 py-5">
                 <div className="container">
                     <div className="left_box">
 
