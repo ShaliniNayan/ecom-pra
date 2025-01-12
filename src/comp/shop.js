@@ -5,7 +5,7 @@ const Shop = () => {
     return (
         <>
             <div className="shop w-[100px] px-8 py-5">
-                <div className="container">
+                <div className="container w-full flex">
                     <div className="left_box">
 
                     </div>
