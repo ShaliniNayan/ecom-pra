@@ -9,7 +9,10 @@ const Shop = () => {
                     <div className="left_box w-[30%]">
                         <div className="category">
                             <div className="header">
-                                <h2>Categories</h2>
+                                <h2>All Categories</h2>
+                            </div>
+                            <div className="box">
+                                
                             </div>
                         </div>
                     </div>
