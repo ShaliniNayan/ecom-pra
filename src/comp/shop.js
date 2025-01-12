@@ -1,10 +1,17 @@
 import React from "react";
+import './nav.css';
 
 const Shop = () => {
     return (
-        <div>
-            Shop
-        </div>
+        <>
+            <div className="shop">
+                <div className="container">
+                    <div className="left_box">
+
+                    </div>
+                </div>
+            </div>
+        </>
     );
 };
 
