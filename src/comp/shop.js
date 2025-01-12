@@ -6,8 +6,10 @@ const Shop = () => {
         <>
             <div className="shop w-[100px] px-8 py-5">
                 <div className="container w-full flex">
-                    <div className="left_box">
-
+                    <div className="left_box w-[30%]">
+                        <div className="category">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
