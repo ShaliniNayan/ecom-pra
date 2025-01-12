@@ -8,7 +8,9 @@ const Shop = () => {
                 <div className="container w-full flex">
                     <div className="left_box w-[30%]">
                         <div className="category">
-                            
+                            <div className="header">
+                                <h2>Categories</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
