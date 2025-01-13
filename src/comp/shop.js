@@ -12,7 +12,15 @@ const Shop = () => {
                                 <h2>All Categories</h2>
                             </div>
                             <div className="box">
-                                
+                                <ul>
+                                    <li># tv</li>
+                                    <li># laptop</li>
+                                    <li># watch</li>
+                                    <li># speaker</li>
+                                    <li># electronics</li>
+                                    <li># headphone</li>
+                                    <li># phone</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
