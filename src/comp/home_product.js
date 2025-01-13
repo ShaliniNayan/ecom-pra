@@ -6,7 +6,7 @@ const Homeproduct = [
       Name: "Product1",
       price: '100',
       image: `${process.env.PUBLIC_URL}/image/p1.webp`,
-      cat: '',
+      cat: 'tv',
       type: 'new',
     },
     {
@@ -14,7 +14,7 @@ const Homeproduct = [
       Name: "Product2",
       price: '120',
       image: `${process.env.PUBLIC_URL}/image/p2.webp`,
-      cat: '',
+      cat: 'laptop',
       type: 'new',
     },
     {
@@ -22,7 +22,7 @@ const Homeproduct = [
       Name: "Product3",
       price: '140',
       image: `${process.env.PUBLIC_URL}/image/p3.webp`,
-      cat: '',
+      cat: 'watch',
       type: 'new',
     },
     {
@@ -30,7 +30,7 @@ const Homeproduct = [
       Name: "Product4",
       price: '450',
       image: `${process.env.PUBLIC_URL}/image/p9.jpg`,
-      cat: '',
+      cat:'laptop',
       type: 'new',
     },
     {
@@ -38,7 +38,7 @@ const Homeproduct = [
       Name: "Product5",
       price: '160',
       image: `${process.env.PUBLIC_URL}/image/p4.webp`,
-      cat: '',
+      cat: 'speaker',
       type: 'featured',
     },
     {
@@ -46,7 +46,7 @@ const Homeproduct = [
       Name: "Product6",
       price: '180',
       image: `${process.env.PUBLIC_URL}/image/p5.webp`,
-      cat: '',
+      cat: 'electronics',
       type: 'featured',
     },
     {
@@ -54,7 +54,7 @@ const Homeproduct = [
       Name: "Product7",
       price: '879',
       image: `${process.env.PUBLIC_URL}/image/p10.jpg`,
-      cat: '',
+      cat: 'headphone',
       type: 'featured',
     },
     {
@@ -62,7 +62,7 @@ const Homeproduct = [
       Name: "Product8",
       price: '979',
       image: `${process.env.PUBLIC_URL}/image/p11.jpg`,
-      cat: '',
+      cat: 'electronics',
       type: 'featured',
     },
     {
@@ -70,7 +70,7 @@ const Homeproduct = [
       Name: "Product9",
       price: '600',
       image: `${process.env.PUBLIC_URL}/image/p6.webp`,
-      cat: '',
+      cat: 'phone',
       type: 'top',
     },
     {
@@ -78,7 +78,7 @@ const Homeproduct = [
       Name: "Product10",
       price: '220',
       image: `${process.env.PUBLIC_URL}/image/p7.webp`,
-      cat: '',
+      cat: 'speaker',
       type: 'top',
     },
     {
@@ -86,7 +86,7 @@ const Homeproduct = [
       Name: "Product11",
       price: '240',
       image: `${process.env.PUBLIC_URL}/image/p8.webp`,
-      cat: '',
+      cat: 'speaker',
       type: 'top',
     },
     {
@@ -94,7 +94,7 @@ const Homeproduct = [
       Name: "Product12",
       price: '540',
       image: `${process.env.PUBLIC_URL}/image/p12.jpg`,
-      cat: '',
+      cat: 'speaker',
       type: 'top',
     },
   ];
