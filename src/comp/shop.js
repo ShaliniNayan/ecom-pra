@@ -5,23 +5,23 @@ const Shop = () => {
     return (
         <>
             <div className="shop w-[100px] px-8 py-5">
-                <h2># shop</h2>
-                <p>Home . shop</p>
+                <h2 className="whitespace-nowrap"># shop</h2>
+                <p className="whitespace-nowrap">Home . shop</p>
                 <div className="container w-full flex">
                     <div className="left_box w-[30%] flex">
                         <div className="category">
                             <div className="header flex">
-                                <h2 className="flex font-semibold">All Categories</h2>
+                                <h2 className="flex font-semibold whitespace-nowrap">All Categories</h2>
                             </div>
                             <div className="box">
-                                <ul>
-                                    <li># tv</li>
-                                    <li># laptop</li>
-                                    <li># watch</li>
-                                    <li># speaker</li>
-                                    <li># electronics</li>
-                                    <li># headphone</li>
-                                    <li># phone</li>
+                                <ul className="list-disc pl-5 space-y-2">
+                                    <li className="whitespace-nowrap"># tv</li>
+                                    <li className="whitespace-nowrap"># laptop</li>
+                                    <li className="whitespace-nowrap"># watch</li>
+                                    <li className="whitespace-nowrap"># speaker</li>
+                                    <li className="whitespace-nowrap"># electronics</li>
+                                    <li className="whitespace-nowrap"># headphone</li>
+                                    <li className="whitespace-nowrap"># phone</li>
                                 </ul>
                             </div>
                         </div>
