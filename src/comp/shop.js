@@ -5,9 +5,11 @@ const Shop = () => {
     return (
         <>
             <div className="shop w-[100px] px-8 py-5">
-                <h2 className="whitespace-nowrap uppercase tracking-wider font-semibold text-[#232323]"># shop</h2>
-                <p className="whitespace-nowrap">Home  shop</p>
-                <div className="container w-full flex">
+                <h2 className="whitespace-nowrap uppercase tracking-wider text-[#232323] text-2xl font-semibold">
+                    # shop
+                </h2>
+                <p className="whitespace-nowrap mt-1 text-[#8a8a8a] text-sm font-semibold">Home  shop</p>
+                <div className="container w-full flex mt-[20px]">
                     <div className="left_box w-[30%] flex">
                         <div className="category">
                             <div className="header flex">
