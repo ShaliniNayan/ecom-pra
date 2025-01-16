@@ -11,9 +11,9 @@ const Shop = () => {
                 <p className="whitespace-nowrap mt-1 text-[#8a8a8a] text-sm font-semibold">Home  shop</p>
                 <div className="container w-full flex mt-[20px]">
                     <div className="left_box w-[25%] flex">
-                        <div className="category border-[3px] border-[#f6f6f6] w-full">
-                            <div className="header flex">
-                                <h2 className="flex font-semibold whitespace-nowrap uppercase text-[#232323] text-2xl">All Categories</h2>
+                        <div className="category border-[3px] border-[#f6f6f6] w-[100%]">
+                            <div className="header flex max-w-full px-5 py-2.5 bg-[#f6f6f6]">
+                                <h3 className="flex font-semibold whitespace-nowrap uppercase text-[#232323] text-2xl">All Categories</h3>
                             </div>
                             <div className="box">
                                 <ul className="list-disc pl-5 space-y-2">
