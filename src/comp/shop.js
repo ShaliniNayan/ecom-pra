@@ -5,8 +5,8 @@ const Shop = () => {
     return (
         <>
             <div className="shop w-[100px] px-8 py-5">
-                <h2 className="whitespace-nowrap"># shop</h2>
-                <p className="whitespace-nowrap">Home . shop</p>
+                <h2 className="whitespace-nowrap uppercase tracking-wider font-semibold text-[#232323]"># shop</h2>
+                <p className="whitespace-nowrap">Home  shop</p>
                 <div className="container w-full flex">
                     <div className="left_box w-[30%] flex">
                         <div className="category">
