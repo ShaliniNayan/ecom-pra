@@ -19,7 +19,7 @@ const Shop = () => {
                     <div className="category border-2 border-[#f6f6f6] w-full">
                         {/* Category Header */}
                         <div className="header flex px-5 py-3 bg-[#f6f6f6]">
-                            <h3 className="font-semibold uppercase text-[#232323] text-lg">
+                            <h3 className="font-semibold uppercase text-[#232323] text-lg text-center">
                                 All Categories
                             </h3>
                         </div>
