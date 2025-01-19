@@ -23,17 +23,19 @@ const Shop = () => {
                                 All Categories
                             </h3>
                         </div>
-
-                        {/* Category List */}
-                        <ul className="list-disc pl-5 py-4 space-y-2 text-[#232323]">
-                            <li># TV</li>
-                            <li># Laptop</li>
-                            <li># Watch</li>
-                            <li># Speaker</li>
-                            <li># Electronics</li>
-                            <li># Headphone</li>
-                            <li># Phone</li>
-                        </ul>
+                        
+                        <div className="box">                            
+                            {/* Category List */}
+                            <ul className="list-disc pl-5 py-4 space-y-2 text-[#232323]">
+                                <li># TV</li>
+                                <li># Laptop</li>
+                                <li># Watch</li>
+                                <li># Speaker</li>
+                                <li># Electronics</li>
+                                <li># Headphone</li>
+                                <li># Phone</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
