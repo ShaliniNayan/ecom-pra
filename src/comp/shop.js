@@ -27,7 +27,7 @@ const Shop = () => {
                         <div className="box mt-2 w-full">                            
                             {/* Category List */}
                             <ul className="list-disc pl-5 py-4 space-y-2 text-[#232323]">
-                                <li># TV</li>
+                                <li className=""># TV</li>
                                 <li># Laptop</li>
                                 <li># Watch</li>
                                 <li># Speaker</li>
