@@ -27,14 +27,21 @@ const Shop = () => {
                         <div className="box mt-2 w-full px-[10px] py-[20px]">                            
                             {/* Category List */}
                             <ul className="max-w-full">
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># TV</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Laptop</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Watch</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Speaker</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Electronics</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Headphone</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Phone</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># TV</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Laptop</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Watch</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Speaker</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Electronics</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Headphone</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Phone</li>
                             </ul>
+                        </div>
+                    </div>
+
+                    {/* Banner */}
+                    <div className="banner mt-4 w-[250px]">
+                        <div className="img_box">
+                            <img src="image/shop_left.avif" alt="" className="w-full object-cover" />
                         </div>
                     </div>
                 </div>
