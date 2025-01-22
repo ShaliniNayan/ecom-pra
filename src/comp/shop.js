@@ -45,6 +45,15 @@ const Shop = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Right Box */}
+                <div className="right_box w-3/4">
+                    <div className="banner">
+                        <div className="img_box">
+                            <img src="image/shop_top.webp" alt="" className="w-full object-cover" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
