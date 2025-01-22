@@ -16,7 +16,7 @@ const Shop = () => {
             <div className="container w-full flex mt-8">
                 {/* Left Box */}
                 <div className="left_box w-1/4">
-                    <div className="category border-2 border-[#f6f6f6] w-full">
+                    <div className="category border-2 border-[#f6f6f6] w-[250px]">
                         {/* Category Header */}
                         <div className="header flex px-5 py-3 bg-[#f6f6f6]">
                             <h3 className="font-semibold uppercase text-[#232323] text-lg text-center">
@@ -24,16 +24,16 @@ const Shop = () => {
                             </h3>
                         </div>
                         
-                        <div className="box mt-2 w-full">                            
+                        <div className="box mt-2 w-full px-[10px] py-[20px]">                            
                             {/* Category List */}
-                            <ul className="list-disc pl-5 py-4 space-y-2 text-[#232323]">
-                                <li className="font-semibold"># TV</li>
-                                <li className="font-semibold"># Laptop</li>
-                                <li className="font-semibold"># Watch</li>
-                                <li className="font-semibold"># Speaker</li>
-                                <li className="font-semibold"># Electronics</li>
-                                <li className="font-semibold"># Headphone</li>
-                                <li className="font-semibold"># Phone</li>
+                            <ul className="max-w-full">
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># TV</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Laptop</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Watch</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Speaker</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Electronics</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Headphone</li>
+                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer"># Phone</li>
                             </ul>
                         </div>
                     </div>
