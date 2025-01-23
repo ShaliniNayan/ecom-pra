@@ -53,6 +53,11 @@ const Shop = () => {
                             <img src="image/shop_top.webp" alt="" className="w-full object-cover" />
                         </div>
                     </div>
+                    <div className="product_box">
+                        <div className="product_container">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
