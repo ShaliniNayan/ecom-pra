@@ -55,7 +55,7 @@ const Shop = () => {
                     </div>
                     <div className="product_box">
                         <div className="product_container">
-                            
+                            <div className="box"></div>
                         </div>
                     </div>
                 </div>
