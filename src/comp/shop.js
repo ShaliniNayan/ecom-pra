@@ -1,7 +1,7 @@
 import React from "react";
 import './nav.css';
 
-const Shop = () => {
+const Shop = ({shop}) => {
     return (
         <div className="shop w-full px-8 py-5">
             {/* Shop Header */}
@@ -55,7 +55,19 @@ const Shop = () => {
                     </div>
                     <div className="product_box">
                         <div className="product_container">
-                            <div className="box"></div>
+                            {
+                                shop.map((curElm) => {
+                                    return(
+                                        <>
+                                        <div className="box">
+                                            <div className="img_box">
+                                                <img src={curElm.image} alt="" />
+                                            </div>
+                                        </div>
+                                        </>
+                                    )
+                                })                                    
+                            }
                         </div>
                     </div>
                 </div>
