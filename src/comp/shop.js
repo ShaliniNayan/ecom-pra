@@ -1,5 +1,6 @@
 import React from "react";
 import './nav.css';
+import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
 const Shop = ({shop}) => {
     return (
@@ -61,9 +62,14 @@ const Shop = ({shop}) => {
                                     return(
                                         <>
                                         <div className="box px-[10px] py-[10px] w-[270px] h-[370px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
-                                            <div className="img_box">
+                                            <div className="img_box flex">
                                                 <img className="w-[170px] h-[170px] ml-[40px]" 
-                                                src={curElm.image} alt="" />
+                                                    src={curElm.image} alt="" 
+                                                />
+                                                <div className="icon">
+                                                    <AiFillHeart/>
+                                                    <AiFillEye/>
+                                                </div>
                                             </div>
                                         </div>
                                         </>
