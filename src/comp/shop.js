@@ -53,9 +53,9 @@ const Shop = ({shop}) => {
                             <img src="image/shop_top.webp" alt="" className="w-full object-cover" />
                         </div>
                     </div>
-                    <div className="product_box w-full px-5 py-2.5">
-                        <h2 className="text-gray-900 uppercase tracking-wider text-xl mt-2.5">Shop Product</h2>
-                        <div className="product_container">
+                    <div className="product_box max-w-full px-5 py-2.5">
+                        <h2 className="text-gray-800 uppercase tracking-wider text-xl mt-2.5">Shop Product</h2>
+                        <div className="product_container w-full flex flex-wrap">
                             {
                                 shop.map((curElm) => {
                                     return(
