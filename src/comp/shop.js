@@ -67,8 +67,8 @@ const Shop = ({shop}) => {
                                                     src={curElm.image} alt="" 
                                                 />
                                                 <div className="icon">
-                                                    <AiFillHeart/>
-                                                    <AiFillEye/>
+                                                    <li><AiFillHeart/></li>
+                                                    <li><AiFillEye/></li>
                                                 </div>
                                             </div>
                                         </div>
