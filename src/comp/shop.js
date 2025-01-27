@@ -73,7 +73,8 @@ const Shop = ({shop}) => {
                                             </div>
                                             <div className="detail">
                                                 <h3>{curElm.Name}</h3>
-                                                
+                                                <p>{curElm.price}</p>
+                                                <button>Add To Cart</button>
                                             </div>
                                         </div>
                                         </>
