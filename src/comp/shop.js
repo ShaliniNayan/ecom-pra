@@ -67,8 +67,8 @@ const Shop = ({shop}) => {
                                                     src={curElm.image} alt="" 
                                                 />
                                                 <div className="icon flex flex-col p-5 mt-[10px] ml-[40px] transition duration-500 hover:ml-[-20px]">
-                                                    <li className="list-none border-2 border-[#f6f7f8] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] px-[10px] py-[10px] mt-[10px] text-[#8a8a8a]"><AiFillHeart/></li>
-                                                    <li className="list-none border-2 border-[#f6f7f8] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] px-[10px] py-[10px] mt-[10px] text-[#8a8a8a]"><AiFillEye/></li>
+                                                    <li className="list-none border-2 border-[#f6f7f8] shadow-md px-2.5 py-2.5 mt-2.5 text-gray-500 bg-white cursor-pointer transition duration-500 hover:text-white hover:bg-[#cd1e76]"><AiFillHeart/></li>
+                                                    <li className="list-none border-2 border-[#f6f7f8] shadow-md px-2.5 py-2.5 mt-2.5 text-gray-500 bg-white cursor-pointer transition duration-500 hover:text-white hover:bg-[#cd1e76]"><AiFillEye/></li>
                                                 </div>
                                             </div>
                                         </div>
