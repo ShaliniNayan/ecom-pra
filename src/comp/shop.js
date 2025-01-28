@@ -72,7 +72,7 @@ const Shop = ({shop}) => {
                                                 </div>
                                             </div>
                                             <div className="detail mt-2.5 w-full">
-                                                <h3>{curElm.Name}</h3>
+                                                <h3 className="text-center text-[#232323] text-base font-semibold">{curElm.Name}</h3>
                                                 <p>{curElm.price}</p>
                                                 <button>Add To Cart</button>
                                             </div>
