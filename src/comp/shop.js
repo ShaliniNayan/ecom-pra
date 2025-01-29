@@ -61,20 +61,20 @@ const Shop = ({shop}) => {
                                 shop.map((curElm) => {
                                     return(
                                         <>
-                                        <div className="box px-[10px] py-[10px] w-[270px] h-[390px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
+                                        <div className="box px-[10px] py-[10px] w-[270px] h-[385px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
                                             <div className="img_box flex">
-                                                <img className="w-full h-[270px]" 
+                                                <img className="w-full h-[240px]" 
                                                     src={curElm.image} alt="" 
                                                 />
-                                                <div className="icon flex flex-col p-5 mt-[10px] ml-[40px] transition duration-500 hover:ml-[-20px]">
+                                                <div className="icon flex flex-col p-5 mt-[10px] ml-[40px] transition duration-500 hover:ml-[-60px]">
                                                     <li className="list-none shadow-md px-2.5 py-2.5 mt-2.5 text-gray-500 bg-white cursor-pointer transition duration-500 hover:text-white hover:bg-[#cd1e76]"><AiFillHeart/></li>
                                                     <li className="list-none shadow-md px-2.5 py-2.5 mt-2.5 text-gray-500 bg-white cursor-pointer transition duration-500 hover:text-white hover:bg-[#cd1e76]"><AiFillEye/></li>
                                                 </div>
                                             </div>
                                             <div className="detail mt-2.5 w-full">
                                                 <h3 className="text-center text-[#232323] text-lg font-semibold capitalize">{curElm.Name}</h3>
-                                                <p className="mt-2 text-center text-[#cd1e76] text-base">₹ {curElm.price}</p>
-                                                <button>Add To Cart</button>
+                                                <p className="mt-[5px] text-center text-[#cd1e76] text-base">₹ {curElm.price}</p>
+                                                <button className="mt-2 ml-[30%] px-4 py-2 border-0 outline-none text-[#232323] bg-[#fed700] font-semibold cursor-pointer">Add To Cart</button>
                                             </div>
                                         </div>
                                         </>
