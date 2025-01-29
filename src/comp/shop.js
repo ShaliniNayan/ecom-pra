@@ -61,9 +61,9 @@ const Shop = ({shop}) => {
                                 shop.map((curElm) => {
                                     return(
                                         <>
-                                        <div className="box px-[10px] py-[10px] w-[270px] h-[370px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
+                                        <div className="box px-[10px] py-[10px] w-[270px] h-[390px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
                                             <div className="img_box flex">
-                                                <img className="w-[170px] h-[170px] ml-[40px]" 
+                                                <img className="w-full h-[270px]" 
                                                     src={curElm.image} alt="" 
                                                 />
                                                 <div className="icon flex flex-col p-5 mt-[10px] ml-[40px] transition duration-500 hover:ml-[-20px]">
