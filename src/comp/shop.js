@@ -73,7 +73,7 @@ const Shop = ({shop}) => {
                                             </div>
                                             <div className="detail mt-2.5 w-full">
                                                 <h3 className="text-center text-[#232323] text-base font-semibold capitalize">{curElm.Name}</h3>
-                                                <p>{curElm.price}</p>
+                                                <p>₹ {curElm.price}</p>
                                                 <button>Add To Cart</button>
                                             </div>
                                         </div>
