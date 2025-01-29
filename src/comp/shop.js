@@ -72,8 +72,8 @@ const Shop = ({shop}) => {
                                                 </div>
                                             </div>
                                             <div className="detail mt-2.5 w-full">
-                                                <h3 className="text-center text-[#232323] text-base font-semibold capitalize">{curElm.Name}</h3>
-                                                <p>₹ {curElm.price}</p>
+                                                <h3 className="text-center text-[#232323] text-lg font-semibold capitalize">{curElm.Name}</h3>
+                                                <p className="mt-2 text-center text-[#cd1e76] text-base">₹ {curElm.price}</p>
                                                 <button>Add To Cart</button>
                                             </div>
                                         </div>
