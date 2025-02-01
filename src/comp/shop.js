@@ -61,15 +61,15 @@ const Shop = ({shop}) => {
                                 shop.map((curElm) => {
                                     return(
                                         <>
-                                        <div className="box px-[10px] py-[10px] w-[270px] h-[385px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
-                                            <div className="img_box flex">
+                                        <div className="box group px-[10px] py-[10px] w-[270px] h-[385px] overflow-hidden border-2 border-[#f6f6f6] ml-4 mt-5">
+                                            <div className="img_box relative flex">
                                                 <img className="w-full h-[240px]" 
                                                     src={curElm.image} alt="" 
                                                 />
                                                                                                 
-                                                <div className="icon flex flex-col p-5 mt-[10px] ml-[40px] transition duration-500 hover:ml-[-64px]">
-                                                    <li className="list-none shadow-md px-2.5 py-2.5 mt-2.5 text-gray-500 bg-white cursor-pointer transition duration-500 hover:text-white hover:bg-[#cd1e76]"><AiFillHeart/></li>
-                                                    <li className="list-none shadow-md px-2.5 py-2.5 mt-2.5 text-gray-500 bg-white cursor-pointer transition duration-500 hover:text-white hover:bg-[#cd1e76]"><AiFillEye/></li>
+                                                <div className="icon absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col gap-2 opacity-0 transition-all duration-300 ease-in-out translate-x-full group-hover:translate-x-0 group-hover:opacity-100">
+                                                    <li className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillHeart/></li>
+                                                    <li className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillEye/></li>
                                                 </div>
                                             </div>
                                             <div className="detail mt-2.5 w-full">
