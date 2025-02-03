@@ -2,7 +2,7 @@ import React from "react";
 import './nav.css';
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
-const Shop = ({shop}) => {
+const Shop = ({shop, Filter}) => {
     return (
         <div className="shop w-full px-8 py-5">
             {/* Shop Header */}
@@ -28,13 +28,20 @@ const Shop = ({shop}) => {
                         <div className="box mt-2 w-full px-[10px] py-[20px]">                            
                             {/* Category List */}
                             <ul className="max-w-full">
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># TV</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Laptop</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Watch</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Speaker</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Electronics</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Headphone</li>
-                                <li className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Phone</li>
+                                <li onClick={() => Filter ('tv')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># TV</li>
+                                <li onClick={() => Filter ('laptop')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Laptop</li>
+                                <li onClick={() => Filter ('watch')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Watch</li>
+                                <li onClick={() => Filter ('speaker')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Speaker</li>
+                                <li onClick={() => Filter ('electronics')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Electronics</li>
+                                <li onClick={() => Filter ('headphone')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Headphone</li>
+                                <li onClick={() => Filter ('phone')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># Phone</li>
                             </ul>
                         </div>
                     </div>
