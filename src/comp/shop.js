@@ -75,7 +75,7 @@ const Shop = ({shop}) => {
                                             <div className="detail mt-2.5 w-full">
                                                 <h3 className="text-center text-[#232323] text-lg font-semibold capitalize">{curElm.Name}</h3>
                                                 <p className="mt-[5px] text-center text-[#cd1e76] text-base">₹ {curElm.price}</p>
-                                                <button className="mt-2 ml-[30%] px-4 py-2 border-0 outline-none text-[#232323] bg-[#fed700] font-semibold cursor-pointer">Add To Cart</button>
+                                                <button className="mt-2 ml-[30%] px-4 py-2 border-0 outline-none text-[#232323] bg-[#fed700] font-semibold cursor-pointer transition-all duration-300 hover:bg-[#232323] hover:text-[#fed700]">Add To Cart</button>
                                             </div>
                                         </div>
                                         </>
