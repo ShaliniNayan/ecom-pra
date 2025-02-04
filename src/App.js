@@ -21,11 +21,20 @@ const App = () => {
     setShop(Homeproduct);
   }
   // Shop Search Filter
-  const searchproduct = () => {
-    const searchfilter = Homeproduct.filter((x) => {
-      return x.cat === search
-    });
-    setShop(searchfilter);
+  const searchlength = (search || []).length === 0
+  const searchproduct = () =>{
+    if(searchlength)
+      {
+        alert("Please enter a search")
+        setShop(Homeproduct);
+      }
+      else
+      {
+        const searchfilter = Homeproduct.filter((x) => {
+          return x.cat === search
+        });
+        setShop(searchfilter);
+      }
   }
   return (
     <>
