@@ -14,11 +14,15 @@ const App = () => {
     });
     setShop(catefilter);
   }
+  // All category filter
+  const allcatefilter = (x) => {
+    setShop(Homeproduct);
+  }
   return (
     <>
       <BrowserRouter>
         <Nav />
-        <Rout shop={shop} Filter={Filter} />
+        <Rout shop={shop} Filter={Filter} allcatefilter={allcatefilter} />
         <Footer />
       </BrowserRouter>
     </>
