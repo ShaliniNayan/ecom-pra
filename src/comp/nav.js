@@ -8,7 +8,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from 'react-router-dom'
 
 
-const Nav = () => {
+const Nav = ({ search, setSearch, searchproduct }) => {
   const { loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
   return (
     <>
@@ -34,10 +34,13 @@ const Nav = () => {
           <div className="flex items-center">
             <input
               type="text"
+              value={search}
               placeholder="Search"
+              onChange={(e) => setSearch(e.target.value)}
               className="p-2 border border-gray-400 rounded-l-md w-64 outline-none"
             />
-            <button className="p-2 ml-2 bg-pink-600 text-white rounded-r-md border border-pink-600 hover:bg-yellow-400 hover:text-pink-600 transition duration-500 font-semibold">
+            <button onClick={() => searchproduct(search)}
+            className="p-2 ml-2 bg-pink-600 text-white rounded-r-md border border-pink-600 hover:bg-yellow-400 hover:text-pink-600 transition duration-500 font-semibold">
               <AiOutlineSearch />
             </button>
           </div>
