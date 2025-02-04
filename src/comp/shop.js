@@ -2,7 +2,7 @@ import React from "react";
 import './nav.css';
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
-const Shop = ({shop, Filter}) => {
+const Shop = ({shop, Filter, allcatefilter}) => {
     return (
         <div className="shop w-full px-8 py-5">
             {/* Shop Header */}
@@ -28,6 +28,8 @@ const Shop = ({shop, Filter}) => {
                         <div className="box mt-2 w-full px-[10px] py-[20px]">                            
                             {/* Category List */}
                             <ul className="max-w-full">
+                                <li onClick={() => allcatefilter ('')} 
+                                className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># All</li>
                                 <li onClick={() => Filter ('tv')} 
                                 className="list-none ml-2 uppercase mt-1 text-sm font-semibold text-[#8a8a8a] tracking-wider cursor-pointer transition duration-500 hover:text-gray-900"># TV</li>
                                 <li onClick={() => Filter ('laptop')} 
