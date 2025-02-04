@@ -5,6 +5,8 @@ import Rout from './comp/rout'
 import Footer from './comp/footer'
 import Homeproduct from './comp/home_product'
 const App = () => {
+  // Add to Cart
+  const [cart, setCart] = useState([])
   // Shop Page Product
   const [shop, setShop] = useState(Homeproduct)
   // Shop Search Filter
@@ -36,11 +38,27 @@ const App = () => {
         setShop(searchfilter);
       }
   }
+  // Add to Cart
+  const addtocart = (product) => {
+    const exit = cart.find((x) => {
+      return x.id === product.id;
+    });
+    if(exit)
+    {
+      alert ("Product Already Added")
+    }
+    else
+    {
+      setCart([...cart, {...product, qty: 1}]);
+      alert("Product Added to Cart")
+    }
+  }
+  console.log(cart)
   return (
     <>
       <BrowserRouter>
         <Nav search={search} setSearch={setSearch} searchproduct={searchproduct} />
-        <Rout shop={shop} Filter={Filter} allcatefilter={allcatefilter} />
+        <Rout cart={cart} shop={shop} Filter={Filter} allcatefilter={allcatefilter} addtocart={addtocart} />
         <Footer />
       </BrowserRouter>
     </>
