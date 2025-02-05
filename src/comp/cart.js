@@ -4,7 +4,8 @@ import './nav.css';
 const Cart = () => {
     return (
        <>
-        <div className="cart">
+        <div className="cart w-full px-[20px] py-[30px]">
+            <h3 className="text-3xl uppercase text-[#232323] tracking-[1px]">#cart</h3>
             <div className="conatiner"></div>
         </div>
        </>
