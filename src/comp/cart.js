@@ -9,9 +9,9 @@ const Cart = ({cart}) => {
             {
                 cart.length === 0 && 
                 <>
-                <div className="empty_cart">
+                <div className="empty_cart w-full items-center font-semibold">
                     <h2>Your Cart is Empty</h2>
-                    <button>Shop Now</button>
+                    <button >Shop Now</button>
                 </div>
                 </>
             }
