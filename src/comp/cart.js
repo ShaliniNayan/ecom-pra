@@ -18,7 +18,21 @@ const Cart = ({cart}) => {
                 </div>
                 </>
             }
-            <div className="conatiner"></div>
+            <div className="conatiner">
+                {
+                    cart.map((curElm)=>{
+                        return(
+                            <>
+                            <div className="box">
+                                <div className="img_box">
+                                    <img src={curElm.image} alt="" />
+                                </div>
+                            </div>
+                            </>
+                        )
+                    })
+                }
+            </div>
         </div>
        </>
     );
