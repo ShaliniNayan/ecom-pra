@@ -10,8 +10,8 @@ const Cart = ({cart}) => {
                 cart.length === 0 && 
                 <>
                 <div className="empty_cart w-full items-center font-semibold">
-                    <h2>Your Cart is Empty</h2>
-                    <button >Shop Now</button>
+                    <h2 className="text-center uppercase text-lg text-[#232323] tracking-[1px] font-semibold">Your Cart is Empty</h2>
+                    <button>Shop Now</button>
                 </div>
                 </>
             }
