@@ -12,7 +12,9 @@ const Cart = ({cart}) => {
                 <>
                 <div className="empty_cart w-full items-center font-semibold">
                     <h2 className="text-center uppercase text-lg text-[#232323] tracking-[1px] font-semibold">Your Cart is Empty</h2>
+                    <Link to='/shop'>
                     <button className="ml-[45%] px-4 py-2 mt-2 bg-[#fed700] text-[#cd1e76] border-0 outline-none border border-[#fed700] font-semibold">Shop Now</button>
+                    </Link>
                 </div>
                 </>
             }
