@@ -27,6 +27,10 @@ const Cart = ({cart}) => {
                                 <div className="img_box">
                                     <img src={curElm.image} alt="" />
                                 </div>
+                                <div className="detail">
+                                    <h4>{curElm.cat}</h4>
+                                    <h4>{curElm.Name}</h4>
+                                </div>
                             </div>
                             </>
                         )
