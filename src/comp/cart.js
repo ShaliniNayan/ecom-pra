@@ -34,7 +34,9 @@ const Cart = ({cart}) => {
                                     <div className="quantity">
                                         <button className="">+</button>
                                         <input type="number" value={curElm.qty} className="num" />
+                                        <button className="">-</button>
                                     </div>
+                                    <p>Total: ₹{curElm.qty * curElm.price}</p>
                                 </div>
                             </div>
                             </>
