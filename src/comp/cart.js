@@ -31,6 +31,10 @@ const Cart = ({cart}) => {
                                     <h4>{curElm.cat}</h4>
                                     <h4>{curElm.Name}</h4>
                                     <p>Price : ₹{curElm.price}</p>
+                                    <div className="quantity">
+                                        <button className="">+</button>
+                                        <input type="number" value={curElm.qty} className="num" />
+                                    </div>
                                 </div>
                             </div>
                             </>
