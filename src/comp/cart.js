@@ -29,7 +29,7 @@ const Cart = ({cart}) => {
                                     <img src={curElm.image} alt="" />
                                 </div>
                                 <div className="detail flex w-full mt-[10px] ml-[30px]">
-                                    <div className="info">
+                                    <div className="info mt-[20px] ml-[30px]">
                                         <h4 className="uppercase font-semibold">{curElm.cat}</h4>
                                         <h4 className="uppercase font-semibold">{curElm.Name}</h4>
                                         <p>Price : ₹{curElm.price}</p>
