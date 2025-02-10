@@ -1,6 +1,7 @@
 import React from "react";
 import './nav.css';
 import { Link } from "react-router-dom";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Cart = ({cart}) => {
     return (
@@ -39,7 +40,9 @@ const Cart = ({cart}) => {
                                         <input type="number" value={curElm.qty} className="num" />
                                         <button className="">-</button>
                                     </div>
-                                    
+                                    <div className="icon">
+                                        <li><AiOutlineClose /></li>
+                                    </div>
                                 </div>
                             </div>
                             </>
