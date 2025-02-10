@@ -23,20 +23,23 @@ const Cart = ({cart}) => {
                     cart.map((curElm)=>{
                         return(
                             <>
-                            <div className="box flex w-full border-b-2 border-b-[#f6f6f6]">
-                                <div className="img_box w-[270px] h-[270px]">
+                            <div className="box flex w-full border-2 border-[#f6f6f6] h-[250px] mt-[10px]">
+                                <div className="img_box w-[270px] h-[100%] ">
                                     <img src={curElm.image} alt="" />
                                 </div>
                                 <div className="detail">
-                                    <h4 className="uppercase font-semibold">{curElm.cat}</h4>
-                                    <h4 className="uppercase font-semibold">{curElm.Name}</h4>
-                                    <p>Price : ₹{curElm.price}</p>
+                                    <div className="info">
+                                        <h4 className="uppercase font-semibold">{curElm.cat}</h4>
+                                        <h4 className="uppercase font-semibold">{curElm.Name}</h4>
+                                        <p>Price : ₹{curElm.price}</p>
+                                        <p>Total: ₹{curElm.qty * curElm.price}</p>
+                                    </div>
                                     <div className="quantity">
                                         <button className="">+</button>
                                         <input type="number" value={curElm.qty} className="num" />
                                         <button className="">-</button>
                                     </div>
-                                    <p>Total: ₹{curElm.qty * curElm.price}</p>
+                                    
                                 </div>
                             </div>
                             </>
