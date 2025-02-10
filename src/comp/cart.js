@@ -33,12 +33,12 @@ const Cart = ({cart}) => {
                                         <h4 className="uppercase font-semibold text-sm text-[#8a8a8a]">{curElm.cat}</h4>
                                         <h3 className="uppercase font-semibold text-xl text-[#232323] tracking-[1px]">{curElm.Name}</h3>
                                         <p className="mt-[10px] text-sm text-[#232323] uppercase">Price : ₹{curElm.price}</p>
-                                        <p className="mt-[10px] text-sm text-[#232323]">Total: ₹{curElm.qty * curElm.price}</p>
+                                        <p className="mt-[10px] text-sm text-[#232323] uppercase">Total: ₹{curElm.qty * curElm.price}</p>
                                     </div>
-                                    <div className="quantity">
-                                        <button className="">+</button>
+                                    <div className="quantity mt-[65px] ml-[30px] flex">
+                                        <button className="px-[10px] py-[20px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[30px] text-base cursor-pointer">+</button>
                                         <input type="number" value={curElm.qty} className="num" />
-                                        <button className="">-</button>
+                                        <button className="px-[10px] py-[20px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[30px] text-base cursor-pointer">-</button>
                                     </div>
                                     <div className="icon">
                                         <li><AiOutlineClose /></li>
