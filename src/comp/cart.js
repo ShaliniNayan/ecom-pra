@@ -30,10 +30,10 @@ const Cart = ({cart}) => {
                                 </div>
                                 <div className="detail flex w-full mt-[10px] ml-[30px]">
                                     <div className="info mt-[20px] ml-[30px]">
-                                        <h4 className="uppercase font-semibold">{curElm.cat}</h4>
-                                        <h4 className="uppercase font-semibold">{curElm.Name}</h4>
-                                        <p>Price : ₹{curElm.price}</p>
-                                        <p>Total: ₹{curElm.qty * curElm.price}</p>
+                                        <h4 className="uppercase font-semibold text-sm text-[#8a8a8a]">{curElm.cat}</h4>
+                                        <h3 className="uppercase font-semibold text-sm text-[#8a8a8a]">{curElm.Name}</h3>
+                                        <p className="text-sm text-[#8a8a8a]">Price : ₹{curElm.price}</p>
+                                        <p className="text-sm text-[#8a8a8a]">Total: ₹{curElm.qty * curElm.price}</p>
                                     </div>
                                     <div className="quantity">
                                         <button className="">+</button>
