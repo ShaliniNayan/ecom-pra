@@ -18,18 +18,18 @@ const Cart = ({cart}) => {
                 </div>
                 </>
             }
-            <div className="conatiner w-full px-[10px] py-[20px]">
+            <div className="conatiner w-full px-[10px] py-[20px] ">
                 {
                     cart.map((curElm)=>{
                         return(
                             <>
-                            <div className="box">
-                                <div className="img_box">
+                            <div className="box flex w-full border-b-2 border-b-[#f6f6f6]">
+                                <div className="img_box w-[270px] h-[270px]">
                                     <img src={curElm.image} alt="" />
                                 </div>
                                 <div className="detail">
-                                    <h4>{curElm.cat}</h4>
-                                    <h4>{curElm.Name}</h4>
+                                    <h4 className="uppercase font-semibold">{curElm.cat}</h4>
+                                    <h4 className="uppercase font-semibold">{curElm.Name}</h4>
                                     <p>Price : ₹{curElm.price}</p>
                                     <div className="quantity">
                                         <button className="">+</button>
