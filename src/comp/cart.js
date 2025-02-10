@@ -29,11 +29,11 @@ const Cart = ({cart}) => {
                                     <img src={curElm.image} alt="" />
                                 </div>
                                 <div className="detail flex w-full mt-[10px] ml-[30px]">
-                                    <div className="info mt-[20px] ml-[30px]">
+                                    <div className="info mt-[40px] ml-[30px]">
                                         <h4 className="uppercase font-semibold text-sm text-[#8a8a8a]">{curElm.cat}</h4>
                                         <h3 className="uppercase font-semibold text-xl text-[#232323] tracking-[1px]">{curElm.Name}</h3>
-                                        <p className="text-sm text-[#8a8a8a]">Price : ₹{curElm.price}</p>
-                                        <p className="text-sm text-[#8a8a8a]">Total: ₹{curElm.qty * curElm.price}</p>
+                                        <p className="mt-[10px] text-sm text-[#232323] uppercase">Price : ₹{curElm.price}</p>
+                                        <p className="mt-[10px] text-sm text-[#232323]">Total: ₹{curElm.qty * curElm.price}</p>
                                     </div>
                                     <div className="quantity">
                                         <button className="">+</button>
