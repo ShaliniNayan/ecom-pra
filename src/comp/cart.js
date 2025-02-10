@@ -18,7 +18,7 @@ const Cart = ({cart}) => {
                 </div>
                 </>
             }
-            <div className="conatiner">
+            <div className="conatiner w-full px-[10px] py-[20px]">
                 {
                     cart.map((curElm)=>{
                         return(
