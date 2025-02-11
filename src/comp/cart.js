@@ -37,7 +37,7 @@ const Cart = ({cart}) => {
                                     </div>
                                     <div className="quantity mt-[65px] ml-[30px] flex">
                                         <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[30px] text-base cursor-pointer">+</button>
-                                        <input type="number" className="h-[30px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#cd1e76] text-[#cd1e76] text-sm font-semibold num" value={curElm.qty} />
+                                        <input type="number" className="h-[30px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-[80px]" value={curElm.qty} />
                                         <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[30px] text-base cursor-pointer">-</button>
                                     </div>
                                     <div className="icon">
