@@ -36,12 +36,12 @@ const Cart = ({cart}) => {
                                         <p className="mt-[10px] text-sm text-[#232323] uppercase">Total: ₹{curElm.qty * curElm.price}</p>
                                     </div>
                                     <div className="quantity mt-[65px] ml-[30px] flex">
-                                        <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[30px] text-base cursor-pointer">+</button>
-                                        <input type="number" className="h-[30px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-full" value={curElm.qty} />
-                                        <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[30px] text-base cursor-pointer">-</button>
+                                        <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">+</button>
+                                        <input type="number" className="h-[40px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-full" value={curElm.qty} />
+                                        <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">-</button>
                                     </div>
-                                    <div className="icon mt-[70px] ml-[40px]">
-                                        <li><AiOutlineClose /></li>
+                                    <div className="icon mt-[65px] ml-[40px]">
+                                        <li className="cursor-pointer list-none bg-[#cd1e76] px-[10px] py-[10px] text-[#fff] text-sm font-semibold"><AiOutlineClose /></li>
                                     </div>
                                 </div>
                             </div>
