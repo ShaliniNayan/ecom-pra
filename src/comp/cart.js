@@ -29,18 +29,18 @@ const Cart = ({cart}) => {
                                     <img src={curElm.image} alt="" />
                                 </div>
                                 <div className="detail flex w-full mt-[10px] ml-[30px]">
-                                    <div className="info mt-[40px] ml-[30px]">
+                                    <div className="info mt-[40px] ml-[60px]">
                                         <h4 className="uppercase font-semibold text-sm text-[#8a8a8a]">{curElm.cat}</h4>
                                         <h3 className="uppercase font-semibold text-xl text-[#232323] tracking-[1px]">{curElm.Name}</h3>
                                         <p className="mt-[10px] text-sm text-[#232323] uppercase">Price : ₹{curElm.price}</p>
                                         <p className="mt-[10px] text-sm text-[#232323] uppercase">Total: ₹{curElm.qty * curElm.price}</p>
                                     </div>
-                                    <div className="quantity mt-[65px] ml-[30px] flex">
+                                    <div className="quantity mt-[65px] ml-[70px] flex">
                                         <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">+</button>
-                                        <input type="number" className="h-[40px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-full" value={curElm.qty} />
+                                        <input type="number" className="h-[40px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-[90px]" value={curElm.qty} />
                                         <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">-</button>
                                     </div>
-                                    <div className="icon mt-[65px] ml-[40px]">
+                                    <div className="icon mt-[65px] ml-[60px]">
                                         <li className="cursor-pointer list-none bg-[#cd1e76] px-[10px] py-[10px] text-[#fff] text-sm font-semibold"><AiOutlineClose /></li>
                                     </div>
                                 </div>
