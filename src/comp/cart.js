@@ -3,7 +3,18 @@ import './nav.css';
 import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Cart = ({cart}) => {
+const Cart = ({cart, setCart}) => {
+
+    // Increment Qunatity of Cart Product
+    const incqty = (Product) => 
+        {
+            const exit = cart.find((x) => {
+                return x.id === Product.id;
+            })
+            setCart(cart.map((curElm) => {
+                return curElm.id === Product.id ? {...exit, qty: exit.qty + 1} : curElm
+            }))
+        };
     return (
        <>
         <div className="cart w-full px-[20px] py-[30px]">
@@ -36,9 +47,11 @@ const Cart = ({cart}) => {
                                         <p className="mt-[10px] text-sm text-[#232323] uppercase">Total: ₹{curElm.qty * curElm.price}</p>
                                     </div>
                                     <div className="quantity mt-[65px] ml-[70px] flex">
-                                        <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">+</button>
+                                        <button onClick={() => incqty(curElm)}
+                                        className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">+</button>
                                         <input type="number" className="h-[40px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-[90px]" value={curElm.qty} />
-                                        <button className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">-</button>
+                                        <button
+                                        className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">-</button>
                                     </div>
                                     <div className="icon mt-[65px] ml-[60px]">
                                         <li className="cursor-pointer list-none bg-[#cd1e76] px-[10px] py-[10px] text-[#fff] text-sm font-semibold"><AiOutlineClose /></li>
