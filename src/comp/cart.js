@@ -15,6 +15,16 @@ const Cart = ({cart, setCart}) => {
                 return curElm.id === Product.id ? {...exit, qty: exit.qty + 1} : curElm
             }))
         };
+    // Decrement Qunatity of Cart Product
+    const decqty = (Product) => 
+        {
+            const exit = cart.find((x) => {
+                return x.id === Product.id;
+            })
+            setCart(cart.map((curElm) => {
+                return curElm.id === Product.id ? {...exit, qty: exit.qty - 1} : curElm
+            }))
+        };
     return (
        <>
         <div className="cart w-full px-[20px] py-[30px]">
@@ -50,7 +60,7 @@ const Cart = ({cart, setCart}) => {
                                         <button onClick={() => incqty(curElm)}
                                         className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">+</button>
                                         <input type="number" className="h-[40px] px-[10px] py-[10px] bg-transparent border-0 outline-none border-2 border-[#fed700] text-[#cd1e76] text-sm font-semibold w-[90px]" value={curElm.qty} />
-                                        <button
+                                        <button onClick={() => decqty(curElm)}
                                         className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">-</button>
                                     </div>
                                     <div className="icon mt-[65px] ml-[60px]">
