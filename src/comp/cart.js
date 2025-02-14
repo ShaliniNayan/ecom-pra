@@ -6,25 +6,38 @@ import { AiOutlineClose } from "react-icons/ai";
 const Cart = ({cart, setCart}) => {
 
     // Increment Qunatity of Cart Product
-    const incqty = (Product) => 
+    const incqty = (product) => 
         {
             const exit = cart.find((x) => {
-                return x.id === Product.id;
+                return x.id === product.id;
             })
             setCart(cart.map((curElm) => {
-                return curElm.id === Product.id ? {...exit, qty: exit.qty + 1} : curElm
+                return curElm.id === product.id ? {...exit, qty: exit.qty + 1} : curElm
             }))
         };
     // Decrement Qunatity of Cart Product
-    const decqty = (Product) => 
+    const decqty = (product) => 
         {
             const exit = cart.find((x) => {
-                return x.id === Product.id;
+                return x.id === product.id;
             })
             setCart(cart.map((curElm) => {
-                return curElm.id === Product.id ? {...exit, qty: exit.qty - 1} : curElm
+                return curElm.id === product.id ? {...exit, qty: exit.qty - 1} : curElm
             }))
         };
+
+    // Remove Product from Cart
+    const removeproduct = (product) => {                
+        const exit = cart.find((x) => {
+            return x.id === product.id; 
+        })
+        if(exit.qty > 0) {
+            setCart(cart.filter((curElm) => {
+                return curElm.id !== product.id
+            }));
+        }
+    }
+
     return (
        <>
         <div className="cart w-full px-[20px] py-[30px]">
@@ -64,7 +77,8 @@ const Cart = ({cart, setCart}) => {
                                         className="px-[10px] py-[10px] text-[#232323] border-0 outline-none bg-[#fed700] font-semibold h-[40px] text-base cursor-pointer">-</button>
                                     </div>
                                     <div className="icon mt-[65px] ml-[60px]">
-                                        <li className="cursor-pointer list-none bg-[#cd1e76] px-[10px] py-[10px] text-[#fff] text-sm font-semibold"><AiOutlineClose /></li>
+                                        <li className="cursor-pointer list-none bg-[#cd1e76] px-[10px] py-[10px] text-[#fff] text-sm font-semibold"
+                                         onClick={() => removeproduct(curElm)}><AiOutlineClose /></li>
                                     </div>
                                 </div>
                             </div>
