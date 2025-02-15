@@ -87,6 +87,14 @@ const Cart = ({cart, setCart}) => {
                     })
                 }
             </div>
+            <div className="bottom">
+                {
+                    cart.length > 0 && 
+                    <>
+                    <div className="Total"></div>
+                    </>
+                }
+            </div>
         </div>
        </>
     );
