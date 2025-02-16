@@ -38,6 +38,9 @@ const Cart = ({cart, setCart}) => {
         }
     }
 
+    // Total Price of Cart Product
+    const total = cart.reduce((price, item) => price + item.qty * item.price, 0)
+
     return (
        <>
         <div className="cart w-full px-[20px] py-[30px]">
@@ -91,7 +94,9 @@ const Cart = ({cart, setCart}) => {
                 {
                     cart.length > 0 && 
                     <>
-                    <div className="Total"></div>
+                    <div className="Total">
+                        <h4>Total : ₹{total}</h4>
+                    </div>
                     </>
                 }
             </div>
