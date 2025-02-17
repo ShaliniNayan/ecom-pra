@@ -90,7 +90,7 @@ const Cart = ({cart, setCart}) => {
                     })
                 }
             </div>
-            <div className="bottom">
+            <div className="bottom ml-[30px]">
                 {
                     cart.length > 0 && 
                     <>
