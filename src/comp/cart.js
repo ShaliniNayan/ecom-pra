@@ -95,7 +95,7 @@ const Cart = ({cart, setCart}) => {
                     cart.length > 0 && 
                     <>
                     <div className="Total">
-                        <h4>Total : ₹{total}</h4>
+                        <h4 className="text-base text-[#cd1e76] uppercase font-semibold">Total : ₹{total}</h4>
                     </div>
                     </>
                 }
