@@ -97,7 +97,9 @@ const Cart = ({cart, setCart}) => {
                     <div className="Total">
                         <h4 className="text-xl text-[#cd1e76] uppercase font-semibold">Sub Total : ₹{total}</h4>
                     </div>
-                    <button>checkout</button>
+                    <button className="px-[10px] py-[30px border-0 outline-none bg-none bg-[#fed700] text-[#232323] text-base mt-[20px] cursor-pointer font-semibold">
+                        Checkout
+                    </button>
                     </>
                 }
             </div>
