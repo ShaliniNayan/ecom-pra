@@ -97,6 +97,7 @@ const Cart = ({cart, setCart}) => {
                     <div className="Total">
                         <h4 className="text-xl text-[#cd1e76] uppercase font-semibold">Sub Total : ₹{total}</h4>
                     </div>
+                    <button>checkout</button>
                     </>
                 }
             </div>
