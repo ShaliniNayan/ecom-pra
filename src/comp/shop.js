@@ -4,6 +4,8 @@ import { AiFillEye, AiFillHeart } from "react-icons/ai";
 
 const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
     return (
+        <>
+        <div className="product_detail w-[900px] h-[500px] fixed top-[100px] left-[170px] bg-[#ffffff] shadow-md border border-[#f6f6f6] rounded-md"></div>
         <div className="shop w-full px-8 py-5">
             {/* Shop Header */}
             <h2 className="whitespace-nowrap uppercase tracking-wider text-[#232323] text-2xl font-semibold">
@@ -97,6 +99,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
