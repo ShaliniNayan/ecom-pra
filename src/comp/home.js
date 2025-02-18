@@ -5,7 +5,7 @@ import Homeproduct from './home_product';
 import { AiFillEye, AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoGithub, BiLogoInstagram, BiLogoLinkedin, BiLogoTwitter } from 'react-icons/bi';
 
-const Home = () => {
+const Home = ({addtocart}) => {
   //Product Category
   const [newProduct, setNewProduct] = useState([]);
   const [featuredProduct, setFeaturedProduct] = useState([]);
@@ -100,7 +100,10 @@ const Home = () => {
                       <div className='info p-[10px] ml-[10px]'>
                         <h3 className="uppercase text-[14px] text-[#232323] font-light tracking-[1px]">{curElem.Name}</h3>
                         <p className="text-[#cd1e76] mt-2 text-[14px] tracking-[1px]">₹{curElem.price}</p>
-                        <button className="mt-3 px-4 py-2 bg-[#fed700] text-[#232323] capitalize rounded-md transition duration-500 hover:bg-[#cd1e76] hover:text-white">
+                        <button 
+                          className="mt-3 px-4 py-2 bg-[#fed700] text-[#232323] capitalize rounded-md transition duration-500 hover:bg-[#cd1e76] hover:text-white"
+                          onClick={() => addtocart(curElem)}
+                        >
                           Add To Cart
                         </button>
                       </div>
@@ -206,7 +209,8 @@ const Home = () => {
                     <div className="icon mt-2 flex">
                       <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillEye /></button>
                       <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillHeart /></button>
-                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
+                      <button onClick={() => addtocart(curElm)}
+                        className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
                     </div>
                   </div>
                 </div>
@@ -229,7 +233,8 @@ const Home = () => {
                     <div className="icon mt-2 flex">
                       <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillEye /></button>
                       <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillHeart /></button>
-                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
+                      <button onClick={() => addtocart(curElm)}
+                        className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
                     </div>
                   </div>
                 </div>
@@ -252,7 +257,8 @@ const Home = () => {
                     <div className="icon mt-2 flex">
                       <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillEye /></button>
                       <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiFillHeart /></button>
-                      <button className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
+                      <button onClick={() => addtocart(curElm)}
+                        className="bg-none outline-none border-2 border-[#f6f7f8] p-2 ml-2 rounded-full text-gray-500 cursor-pointer transition duration-500 hover:bg-[#f6f6f6] hover:text-gray-900"><AiOutlineShoppingCart /></button>
                     </div>
                   </div>
                 </div>
