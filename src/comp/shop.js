@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './nav.css';
-import { AiFillEye, AiFillHeart } from "react-icons/ai";
+import { AiFillEye, AiFillHeart, AiOutlineClose } from "react-icons/ai";
 
 const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
     // Tongle Product Detail
@@ -17,8 +17,8 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
             showDetail ?
             <>
             <div 
-                className="product_detail w-[900px] h-[500px] fixed top-[100px] left-[170px] bg-[#ffffff] shadow-md border border-[#f6f6f6] rounded-md">
-                <button></button>
+                className="product_detail w-[900px] h-[500px] fixed top-[100px] left-[170px] bg-[#ffffff] shadow-md border border-[#f6f6f6] rounded-md px-[30px] py-[20px]">
+                <button><AiOutlineClose /></button>
             </div>
             </>
             : null
