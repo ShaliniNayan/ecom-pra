@@ -5,6 +5,12 @@ import { AiFillEye, AiFillHeart } from "react-icons/ai";
 const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
     // Tongle Product Detail
     const [showDetail, setShowDetail] = useState(false);
+
+    // Showing Detail Box
+    const detailpage = () =>
+    {
+        setShowDetail(true);
+    }
     return (
         <>
         {
@@ -12,7 +18,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
             <>
             <div 
                 className="product_detail w-[900px] h-[500px] fixed top-[100px] left-[170px] bg-[#ffffff] shadow-md border border-[#f6f6f6] rounded-md">
-            
+                <button></button>
             </div>
             </>
             : null
@@ -93,7 +99,8 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                                                                                                 
                                                 <div className="icon absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col gap-2 opacity-0 transition-all duration-300 ease-in-out translate-x-full group-hover:translate-x-0 group-hover:opacity-100">
                                                     <li className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillHeart/></li>
-                                                    <li className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillEye/></li>
+                                                    <li onClick={detailpage} 
+                                                    className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillEye/></li>
                                                 </div>
                                             </div>
                                             <div className="detail mt-2.5 w-full">
