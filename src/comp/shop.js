@@ -11,6 +11,10 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
     {
         setShowDetail(true);
     }
+    const closedetail = () =>
+    {
+        setShowDetail(false);
+    }
     return (
         <>
         {
@@ -18,7 +22,10 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
             <>
             <div 
                 className="product_detail w-[900px] h-[500px] fixed top-[100px] left-[170px] bg-[#ffffff] shadow-md border border-[#f6f6f6] rounded-md px-[30px] py-[20px]">
-                <button><AiOutlineClose /></button>
+                <button onClick={closedetail}
+                 className="close_btn float-right border-0 outline-none bg-transparent text-[#cd1e76] text-[22px] cursor-pointer">
+                    <AiOutlineClose />
+                </button>
             </div>
             </>
             : null
