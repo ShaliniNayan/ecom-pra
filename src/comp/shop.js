@@ -12,7 +12,9 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
     // Showing Detail Box
     const detailpage = (product) =>
     {
-        setDetail([{product}]);
+        const detaildata = ([{product}]);
+        const productdaetail = detaildata [0]['product'];
+        setDetail(productdaetail);
         setShowDetail(true);
     }
     const closedetail = () =>
@@ -32,7 +34,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                 </button>
                 <div className="container">
                     <div className="img_box">
-                        <img src="" alt="" />
+                        <img src={detail.image} alt="" />
                     </div>
                 </div>
             </div>
