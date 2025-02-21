@@ -6,9 +6,13 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
     // Tongle Product Detail
     const [showDetail, setShowDetail] = useState(false);
 
+    // Detail Page Data
+    const [detail, setDetail] = useState({});
+
     // Showing Detail Box
-    const detailpage = () =>
+    const detailpage = (product) =>
     {
+        setDetail([{product}]);
         setShowDetail(true);
     }
     const closedetail = () =>
@@ -26,7 +30,11 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                  className="close_btn float-right border-0 outline-none bg-transparent text-[#cd1e76] text-[22px] cursor-pointer">
                     <AiOutlineClose />
                 </button>
-                <div className="container"></div>
+                <div className="container">
+                    <div className="img_box">
+                        <img src="" alt="" />
+                    </div>
+                </div>
             </div>
             </>
             : null
@@ -107,7 +115,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                                                                                                 
                                                 <div className="icon absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col gap-2 opacity-0 transition-all duration-300 ease-in-out translate-x-full group-hover:translate-x-0 group-hover:opacity-100">
                                                     <li className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillHeart/></li>
-                                                    <li onClick={detailpage} 
+                                                    <li onClick={() => detailpage(curElm)} 
                                                     className="list-none shadow-lg p-2.5 text-gray-500 bg-white cursor-pointer transition-all duration-300 hover:text-white hover:bg-[#cd1e76] hover:scale-110"><AiFillEye/></li>
                                                 </div>
                                             </div>
