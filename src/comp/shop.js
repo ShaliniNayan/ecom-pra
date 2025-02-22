@@ -36,7 +36,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                     <div className="img_box px-[20px] py-[20px] bg-[#f6f6f6] rounded-md">
                         <img className="w-[270px] h-[270px]" src={detail.image} alt="" />
                     </div>
-                    <div className="info">
+                    <div className="info mt-[20px] ml-[60px]">
                         <h4># {detail.cat}</h4>
                         <h2>{detail.Name}</h2>
                         <p>A smart Watch that everyone like to wear. It has a lot of features. You can use it for your work and leisure</p>
