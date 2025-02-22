@@ -37,7 +37,9 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                         <img className="w-[270px] h-[270px]" src={detail.image} alt="" />
                     </div>
                     <div className="info">
-                        <h4>{detail.cat}</h4>
+                        <h4># {detail.cat}</h4>
+                        <h2>{deatil.Name}</h2>
+                        
                     </div>
                 </div>
             </div>
