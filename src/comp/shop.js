@@ -38,8 +38,9 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                     </div>
                     <div className="info">
                         <h4># {detail.cat}</h4>
-                        <h2>{deatil.Name}</h2>
-                        
+                        <h2>{detail.Name}</h2>
+                        <p>A smart Watch that everyone like to wear. It has a lot of features. You can use it for your work and leisure</p>
+                        <button onClick={() => addtocart(detail)}>Add to Cart</button>
                     </div>
                 </div>
             </div>
