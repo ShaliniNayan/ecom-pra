@@ -32,7 +32,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                  className="close_btn float-right border-0 outline-none bg-transparent text-[#cd1e76] text-[22px] cursor-pointer">
                     <AiOutlineClose />
                 </button>
-                <div className="container">
+                <div className="container w-full flex">
                     <div className="img_box">
                         <img src={detail.image} alt="" />
                     </div>
