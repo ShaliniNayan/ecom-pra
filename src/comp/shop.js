@@ -34,8 +34,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                 </button>
                 <div className="container w-full flex">
                     <div className="img_box px-[20px] py-[20px] bg-[#f6f6f6] rounded-md">
-                        <img className="w-[270px] h-[270px] " 
-                        src={detail.image} alt="" />
+                        <img className="w-[270px] h-[270px]" src={detail.image} alt="" />
                     </div>
                 </div>
             </div>
