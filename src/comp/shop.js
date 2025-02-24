@@ -42,7 +42,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                         <p className="mt-[10px] text-[#8a8a8a] text-sm tracking-wide font-semibold">
                             {detail.desc}
                         </p>
-                        <h3>₹ {detail.price}</h3>
+                        <h3 className="mt-[10px] text-[#cd1e76] text-xl font-semibold">₹ {detail.price}</h3>
                         <button onClick={() => addtocart(detail)}>Add to Cart</button>
                     </div>
                 </div>
