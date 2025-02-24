@@ -8,6 +8,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p1.webp`,
       cat: 'tv',
       type: 'new',
+      desc:'A smart TV that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 2,
@@ -16,6 +17,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p2.webp`,
       cat: 'laptop',
       type: 'new',
+      desc:'A smart Laptop that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 3,
@@ -24,6 +26,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p3.webp`,
       cat: 'watch',
       type: 'new',
+      desc:'A smart Watch that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 4,
@@ -32,6 +35,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p9.jpg`,
       cat:'laptop',
       type: 'new',
+      desc:'A smart Laptop that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 5,
@@ -40,6 +44,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p4.webp`,
       cat: 'speaker',
       type: 'featured',
+      desc:'A smart speaker that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 6,
@@ -48,6 +53,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p5.webp`,
       cat: 'electronics',
       type: 'featured',
+      desc:'A smart electronics that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 7,
@@ -56,7 +62,8 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p10.jpg`,
       cat: 'headphone',
       type: 'featured',
-    },
+      desc:'A smart headphone that everyone like to have. It has a lot of features. You can use it for your work and leisure'
+    },  
     {
       id: 8,
       Name: "Product8",
@@ -64,6 +71,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p11.jpg`,
       cat: 'electronics',
       type: 'featured',
+      desc:'A smart electronics that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 9,
@@ -72,6 +80,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p6.webp`,
       cat: 'phone',
       type: 'top',
+      desc:'A smart phone that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 10,
@@ -80,6 +89,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p7.webp`,
       cat: 'speaker',
       type: 'top',
+      desc:'A smart speaker that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 11,
@@ -88,6 +98,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p8.webp`,
       cat: 'speaker',
       type: 'top',
+      desc:'A smart speaker that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
     {
       id: 12,
@@ -96,6 +107,7 @@ const Homeproduct = [
       image: `${process.env.PUBLIC_URL}/image/p12.jpg`,
       cat: 'speaker',
       type: 'top',
+      desc:'A smart speaker that everyone like to have. It has a lot of features. You can use it for your work and leisure'
     },
   ];
   
