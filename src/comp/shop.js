@@ -43,7 +43,10 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                             {detail.desc}
                         </p>
                         <h3 className="mt-[10px] text-[#cd1e76] text-xl font-semibold">₹ {detail.price}</h3>
-                        <button onClick={() => addtocart(detail)}>Add to Cart</button>
+                        <button className="mt-[10px] bg-[#cd1e76] text-white text-sm font-semibold py-[10px] px-[30px] border-0 outline-none cursor-pointer"
+                            onClick={() => addtocart(detail)}>
+                                Add to Cart
+                        </button>
                     </div>
                 </div>
             </div>
