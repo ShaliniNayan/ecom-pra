@@ -40,7 +40,7 @@ const Shop = ({shop, Filter, allcatefilter, addtocart}) => {
                         <h4 className="text-[#8a8a8a] text-base uppercase font-semibold tracking-wide"># {detail.cat}</h4>
                         <h2 className="mt-[30px] text-[#232323] uppercase text-xl font-semibold">{detail.Name}</h2>
                         <p className="mt-[10px] text-[#8a8a8a] text-sm tracking-wide font-semibold">
-                            A smart Watch that everyone like to wear. It has a lot of features. You can use it for your work and leisure
+                            {detail.desc}
                         </p>
                         <h3>₹ {detail.price}</h3>
                         <button onClick={() => addtocart(detail)}>Add to Cart</button>
