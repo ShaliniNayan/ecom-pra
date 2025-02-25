@@ -3,9 +3,13 @@ import './nav.css';
 
 const Contact = () => {
     return (
-        <div>
-            Contact
+        <>
+        <div className="contact">
+            <div className="conatiner">
+                <div className="form"></div>
+            </div>
         </div>
+        </>
     )
 }
 
