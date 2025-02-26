@@ -7,6 +7,7 @@ const Contact = () => {
         <div className="contact">
             <div className="conatiner">
                 <div className="form">
+                    <h2># contact us</h2>
                     <form method="POST">
                         <div className="box">
                             <div className="label">
