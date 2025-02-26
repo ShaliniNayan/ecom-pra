@@ -13,6 +13,9 @@ const Contact = () => {
                             <div className="label">
                                 <h4>Name</h4>
                             </div>
+                            <div className="input">
+                                <input type="text" placeholder="Enter your name" value="" name="" />
+                            </div>
                         </div>
                     </form>
                 </div>
