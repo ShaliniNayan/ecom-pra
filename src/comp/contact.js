@@ -6,7 +6,7 @@ const Contact = () => {
         <>
         <div className="contact px-[40px] py-[20px] w-full">
             <div className="conatiner py-[20px] px-[10px] w-max-full">
-                <div className="form">
+                <div className="form w-[400px] bg-[#f6f6f6] py-[30px] px-[20px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] mx-auto border-t-[3px] border-[#fed700] rounded-[5px]">
                     <h2># contact us</h2>
                     <form method="POST">
                         <div className="box">
