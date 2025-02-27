@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <>
         <div className="contact px-[40px] py-[20px] w-full">
-            <div className="conatiner">
+            <div className="conatiner py-[20px] px-[10px] w-max-full">
                 <div className="form">
                     <h2># contact us</h2>
                     <form method="POST">
