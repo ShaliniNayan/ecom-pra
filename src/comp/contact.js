@@ -4,7 +4,7 @@ import './nav.css';
 const Contact = () => {
     return (
         <>
-        <div className="contact">
+        <div className="contact px-[40px] py-[20px] w-full">
             <div className="conatiner">
                 <div className="form">
                     <h2># contact us</h2>
