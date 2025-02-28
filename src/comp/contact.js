@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import './nav.css';
 
 const Contact = () => {
+
+    const[user, setUser] = useState(
+        {
+            Name : "", email: "", subject: "", Message: ""
+        }
+    );
+       let values, names
+    const data = (e) => 
+        {
+            values = e.target.value;
+            names = e.target.name;
+            setUser({...user, [names]: values})
+        }
+
     return (
         <>
         <div className="contact px-[40px] py-[20px] w-full">
@@ -15,7 +29,7 @@ const Contact = () => {
                             </div>
                             <div className="input">
                                 <input className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
-                                type="text" placeholder="Enter your name" value="" name="" />
+                                type="text" placeholder="Enter your name" value={user.Name} name="Name" onChange={data}/>
                             </div>
                         </div>
                         <div className="box flex mt-[20px] justify-between">
@@ -24,7 +38,7 @@ const Contact = () => {
                             </div>
                             <div className="input">
                                 <input className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
-                                type="email" placeholder="Enter your email" value="" name="" />
+                                type="email" placeholder="Enter your email" value={user.email} name="email" onChange={data}/>
                             </div>
                         </div>
                         <div className="box flex mt-[20px] justify-between">
@@ -33,7 +47,7 @@ const Contact = () => {
                             </div>
                             <div className="input">
                                 <input className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
-                                type="text" placeholder="Enter your subject" value="" name="" />
+                                type="text" placeholder="Enter your subject" value={user.subject} name="subject" onChange={ data}/> 
                             </div>
                         </div>
                         <div className="box flex mt-[20px] justify-between">
@@ -42,7 +56,7 @@ const Contact = () => {
                             </div>
                             <div className="input">
                                 <textarea className="mr-[30px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px] resize-none" 
-                                placeholder="Enter your message !" value="" name=""></textarea>
+                                placeholder="Enter your message !" value={user.Message} name="Message" onChange={data}></textarea>
                             </div>
                         </div>
                         <button className="mt-[20px] ml-[30px] py-[10px] px-[30px] text-[#232323] border-0 outline-none bg-none bg-[#fed700] cursor-pointer" 
