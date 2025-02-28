@@ -9,15 +9,15 @@ const Contact = () => {
                 <div className="form w-[400px] bg-[#f6f6f6] py-[30px] px-[20px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] mx-auto border-t-[3px] border-[#fed700] rounded-[5px]">
                     <h2 className="text-[#cd1e76] uppercase font-semibold text-lg tracking-wide"># contact us</h2>
                     <form method="POST">
-                        <div className="box">
+                        <div className="box flex mt-[20px] justify-between">
                             <div className="label">
-                                <h4>Name</h4>
+                                <h4 className="ml-[30px]">Name</h4>
                             </div>
                             <div className="input">
                                 <input type="text" placeholder="Enter your name" value="" name="" />
                             </div>
                         </div>
-                        <div className="box">
+                        <div className="box flex mt-[20px] justify-between">
                             <div className="label">
                                 <h4>Email</h4>
                             </div>
@@ -25,7 +25,7 @@ const Contact = () => {
                                 <input type="email" placeholder="Enter your email" value="" name="" />
                             </div>
                         </div>
-                        <div className="box">
+                        <div className="box flex mt-[20px] justify-between">
                             <div className="label">
                                 <h4>Subject</h4>
                             </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                                 <input type="text" placeholder="Enter your subject" value="" name="" />
                             </div>
                         </div>
-                        <div className="box">
+                        <div className="box flex mt-[20px] justify-between">
                             <div className="label">
                                 <h4>Message</h4>
                             </div>
