@@ -16,6 +16,32 @@ const Contact = () => {
             setUser({...user, [names]: values})
         }
 
+        const send = async (e) => 
+        {
+            const {Name, email, subject, Message} = user
+            e.preventDefault()
+            const option = {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    // "Accept": "application/json"
+                },
+                body: JSON.stringify({
+                    Name, email, subject, Message
+                })
+            }
+           
+            const send = await fetch(
+                'https://e-commerce-contact-5c319-default-rtdb.firebaseio.com/Messages.json', option
+            )
+            if (send) {
+                alert("Message Sent")
+            }
+            else{
+                alert("Something went wrong")
+            }
+        }
+
     return (
         <>
         <div className="contact px-[40px] py-[20px] w-full">
@@ -59,8 +85,10 @@ const Contact = () => {
                                 placeholder="Enter your message !" value={user.Message} name="Message" onChange={data}></textarea>
                             </div>
                         </div>
+
+                        {/* contact form goes google firebase */}
                         <button className="mt-[20px] ml-[30px] py-[10px] px-[30px] text-[#232323] border-0 outline-none bg-none bg-[#fed700] cursor-pointer" 
-                        type="submit">Send</button>
+                        type="submit" onClick={send}>Send</button>
                     </form>
                 </div>
             </div>
