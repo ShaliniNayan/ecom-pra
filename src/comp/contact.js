@@ -11,37 +11,37 @@ const Contact = () => {
                     <form method="POST">
                         <div className="box flex mt-[20px] justify-between">
                             <div className="label">
-                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[5px]">Name</h4>
+                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[10px]">Name</h4>
                             </div>
                             <div className="input">
-                                <input className="mr-[30px] border-0 outline-none bg-none border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
+                                <input className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
                                 type="text" placeholder="Enter your name" value="" name="" />
                             </div>
                         </div>
                         <div className="box flex mt-[20px] justify-between">
                             <div className="label">
-                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[5px]">Email</h4>
+                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[10px]">Email</h4>
                             </div>
                             <div className="input">
-                                <input className="mr-[30px] border-0 outline-none bg-none border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
+                                <input className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
                                 type="email" placeholder="Enter your email" value="" name="" />
                             </div>
                         </div>
                         <div className="box flex mt-[20px] justify-between">
                             <div className="label">
-                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[5px]">Subject</h4>
+                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[10px]">Subject</h4>
                             </div>
                             <div className="input">
-                                <input className="mr-[30px] border-0 outline-none bg-none border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
+                                <input className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px]" 
                                 type="text" placeholder="Enter your subject" value="" name="" />
                             </div>
                         </div>
                         <div className="box flex mt-[20px] justify-between">
                             <div className="label">
-                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[5px]">Message</h4>     
+                                <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[10px]">Message</h4>     
                             </div>
                             <div className="input">
-                                <textarea className="mr-[30px] border-0 outline-none bg-none border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px] resize-none" 
+                                <textarea className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px] resize-none" 
                                 placeholder="Enter your message !" value="" name=""></textarea>
                             </div>
                         </div>
