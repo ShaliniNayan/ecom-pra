@@ -41,11 +41,12 @@ const Contact = () => {
                                 <h4 className="ml-[30px] text-[#232323] text-sm font-semibold mt-[10px]">Message</h4>     
                             </div>
                             <div className="input">
-                                <textarea className="mr-[16px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px] resize-none" 
+                                <textarea className="mr-[30px] border-0 outline-none bg-transparent border-b-[2px] border-[#8a8a8a] py-[10px] px-[20px] resize-none" 
                                 placeholder="Enter your message !" value="" name=""></textarea>
                             </div>
                         </div>
-                        <button type="submit">Send</button>
+                        <button className="mt-[20px] ml-[30px] py-[10px] px-[30px] text-[#232323] border-0 outline-none bg-none bg-[#fed700] cursor-pointer" 
+                        type="submit">Send</button>
                     </form>
                 </div>
             </div>
