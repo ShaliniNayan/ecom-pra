@@ -40,7 +40,11 @@ const Cart = ({cart, setCart}) => {
 
     // Total Price of Cart Product
     const total = cart.reduce((price, item) => price + item.qty * item.price, 0)
-
+    const handleCheckout = () => {
+        const totalAmount = total; // Ensure 'total' is defined and holds the correct value
+        console.log("Total Amount:", totalAmount); // Log the total amount
+        window.location.href = `/payment?total=${totalAmount}`; // Redirect to payment page
+    };
     return (
        <>
         <div className="cart w-full px-[20px] py-[30px]">
@@ -97,7 +101,8 @@ const Cart = ({cart, setCart}) => {
                     <div className="Total">
                         <h4 className="text-xl text-[#cd1e76] uppercase font-semibold">Sub Total : ₹{total}</h4>
                     </div>
-                    <button className="px-[10px] py-[30px border-0 outline-none bg-none bg-[#fed700] text-[#232323] text-base mt-[20px] cursor-pointer font-semibold">
+                    <button className="px-[10px] py-[30px border-0 outline-none bg-none bg-[#fed700] text-[#232323] text-base mt-[20px] cursor-pointer font-semibold"
+                    onClick={handleCheckout}>
                         Checkout
                     </button>
                     </>
